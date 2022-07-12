@@ -1,9 +1,9 @@
 ### Site Settings ###
-title               : DevNite
-description         : Welcome to the official DevNite homepage. And yes we host with github.com
+title               : DevNite Creative
+description         : Welcome to the official DevNite Creative homepage. And yes we host this site with github.com too
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : TFNStuff/TFNStuff.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : TFNStuff/portfolYOU-fork
+repository          : DevniteCreative/DevniteCreative.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -22,12 +22,12 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : Private
+  name              : DevNite Creative Team
   image             : https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png
 
 
 ### Posts ###
-permalink: /blog/:title
+permalink: /news/:title
 
 
 ### Collections ###
