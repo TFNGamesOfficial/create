@@ -48,7 +48,7 @@ analytics:
 buymeacoffee:
   enabled: false
   username: your_username
-  color: "#007bff"
+  color: "#e52235"
   message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
   description: "Support me on Buy me a coffee!"
 
