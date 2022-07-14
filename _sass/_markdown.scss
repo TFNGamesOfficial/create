@@ -32,7 +32,7 @@
     text-decoration: none;
 
     &:hover {
-      color: $primary;
+      color: #e52235;
     }
 
     &::after {
@@ -41,7 +41,7 @@
       height: 0.15em;
       margin-top: -0.15em;
       width: 0;
-      background: $primary;
+      background: #e52235;
       transition: width 0.35s;
     }
 
@@ -106,7 +106,7 @@
       padding-bottom: 12px;
       font-weight: 500;
       text-align: left;
-      background-color: $primary;
+      background-color: #e52235;
       color: white;
     }
 
