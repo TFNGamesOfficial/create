@@ -5,7 +5,7 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# **About Us**
 
 Hi we are the **{{ site.author.name }}** :wave:,<br>
 This Website is for the Creative mode. The **{{ site.author.name }}** is uploading new stuff to the docs and uploading blogposts for Creative.
