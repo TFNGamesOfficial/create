@@ -1,11 +1,11 @@
-- name: HTML5/CSS3
-  percentage: 90
+- name: DevNite Battle Royale
+  percentage: 45
   color: danger
 
-- name: Go
+- name: DevNite Creative
   percentage: 80
-  color:
+  color: primary
 
-- name: Python
-  percentage: 70
-  color: secondary
+- name: DevNite PTC (Protect The World)
+  percentage: 5
+  color: Rhine
