@@ -2,7 +2,7 @@
 title: New laboratory pass
 tags: [Creative, New, Item]
 style: border
-color: primary
+color: 
 description: Laboratory Pass is here! See what you can do with it.
 ---
 
