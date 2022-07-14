@@ -3,7 +3,7 @@ title               : DevNite Creative
 description         : Welcome to the official DevNite Creative homepage. And yes we host this site with github.com too
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          :      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : DevniteCreative/portfolYOU
+remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
