@@ -1,14 +1,5 @@
 - title: TFNGames founded
   from: 2020
   to: present
-  description: In 2020 we founded TFNGames. Like Epic Games but without Epic xD
+  description: In 2020 we founded TFNGames. Like Epic Games but we aren't Epic xD
 
-- title: Creative release
-  from: 2022
-  to: 
-  description: Creative got released a few month ago by the **{{ site.author.name }}**!
-
-- title: PTC release
-  from: 2027
-  to: 
-  description: ---
