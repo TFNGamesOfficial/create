@@ -56,7 +56,10 @@ collections:
     permalink: /docs/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
-  docs:
+
+### Docs ###
+collections:
+      docs:
     output: true
     permalink: /docs/using-devices/:name
 
