@@ -58,7 +58,7 @@ collections:
     output: true                                        # For Documentation Only
   docs:
     output: true
-    permalink: /using-devices/:name
+    permalink: /docs/using-devices/:name
 
 
 ### Disqus ###
