@@ -52,7 +52,7 @@ permalink: /blog/:title
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /docs/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
