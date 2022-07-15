@@ -55,6 +55,9 @@ collections:
     permalink: /docs/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
+  docs:
+    output: true
+    permalink: /using-devices/:name
 
 
 ### Disqus ###
@@ -84,6 +87,11 @@ defaults:
   - scope:
       path: ""
       type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "docs"
     values:
       layout: "page"
   - scope:                                              # For Documentation Only
