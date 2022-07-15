@@ -1,20 +1,14 @@
 ---
 name: Thumbnail Devices
-tools: [New Features, Creative 2.0, Official, Beta, Coding, C++, C#, JavaScript, Java, HTML, Ruby]
+tools: [Recently added, Device, Island, Thumbnail]
 image: https://pbs.twimg.com/media/D2-je4nWoAAuv-9?format=jpg&name=large
-description: Write project description here.
+description: Create an Image that is used for Discovery if you get featured.
 ---
 
-# The Movies Project
+# Thumbnail Device
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+With the Thumbnail device, you can create your islands thumbnail from a custom scenario. 7
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+There is a sample island that uses Island Thumbnails, which you can visit to see how the device work. The island code for this sample island is 7355-4931-0650. To play through this island, from the Creative lobby click the Playlist button to open the Discover screen. Click the CODE tab, then enter the island code for the sample Thumbnail device island in the box and press Enter. After this close the Discover screen and click PLAY to launch the game.
 
-## Search Movies
-
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
-</p>
+**NOTE:** Some devices have a limit on how many times that device can be placed on an island. This is independent of how much memory the device uses. You can only place this device 30 times on an island.
