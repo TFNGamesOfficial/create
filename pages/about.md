@@ -8,12 +8,8 @@ weight: 3
 # **About Us**
 
 Hi we are the **{{ site.author.name }}** :wave:,<br>
-This Website is for the Creative mode. The **{{ site.author.name }}** is uploading new stuff to the docs and uploading blogposts for Creative.
+We (the **{{ site.author.name }}**) dont know what to write here lmao.
 
 <div class="row">
 {% include about/skills.html title="Progress" source=site.data.programming-skills %}
-</div>
-
-<div class="row">
-{% include about/timeline.html %}
 </div>
