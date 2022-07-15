@@ -54,8 +54,6 @@ collections:
   projects:
     output: true
     permalink: /docs/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
   docs:
     output: true
     permalink: /docs/using-devices/:name
@@ -95,11 +93,6 @@ defaults:
       type: "docs"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
   - scope:
       path: ""
       type: "posts"
