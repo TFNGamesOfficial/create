@@ -1,10 +1,11 @@
 ---
-name: Thumbnail Devices
+name: Accolade Devices
 tools: [Recently added, Device, Island, Thumbnail]
 image: https://www.epicgames.com/fortnite/en-US/creative/docs/Images/using-accolades-devices-in-fortnite-creative/accolade-device-hero.png
 description: Help players earn Season Pass and Laboratory Pass XP using the Accolade device.
 ---
 
+![Accolade](https://www.epicgames.com/fortnite/en-US/creative/docs/Images/using-accolades-devices-in-fortnite-creative/accolade-device-hero.png)
 # ACCOLADE DEVICE
 With the **Accolade** device, you can set up your islands so players will earn Battle Pass XP when they interact with your island. Accolades are achievements or accomplishments that players can complete to earn XP.
 
