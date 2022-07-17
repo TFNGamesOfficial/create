@@ -3,7 +3,6 @@ name: Thumbnail Devices
 tools: [Recently added, Device, Island, Thumbnail]
 image: https://pbs.twimg.com/media/D2-je4nWoAAuv-9?format=jpg&name=large
 description: Create an Image that is used for Discovery if you get featured.
-external_url: https://devnitecreative.github.io/docs/using-devices/thumbnail-devices/
 ---
 
 # Thumbnail Device
