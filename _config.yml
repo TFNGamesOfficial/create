@@ -71,7 +71,7 @@ analytics:
     tracking_id: your-google-tracking-id
 
 
-### Buy me a coffee ###
+### Buy me coffee ###
 # See https://www.buymeacoffee.com/
 buymeacoffee:
   enabled: false
