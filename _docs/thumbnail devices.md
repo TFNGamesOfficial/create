@@ -15,6 +15,7 @@ There is a sample island that uses Island Thumbnails, which you can visit to see
 
 | Option        | Value         | Description   |
 | ------------- |:-------------:| -------------:|
-| Scenario      | Select, **None**, Create | $160000       |
+| Scenario      | Select, **None**, Create | Nothing Spcial in
+here       |
 | col 2 is      | centered      | $12           |
 | **Use**       | `Markdown`    | $1            |
