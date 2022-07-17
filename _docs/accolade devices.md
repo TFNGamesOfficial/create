@@ -6,7 +6,7 @@ description: Help players earn Season Pass and Laboratory Pass XP using the Acco
 external_url: https://devnitecreative.github.io/docs/using-devices/accolade-devices/
 ---
 
-![Accolade](https://media.discordapp.net/attachments/834113196699680788/997536319880319087/IMG_0860.png?width=1200&height=343)
+![Accolade](https://images-ext-1.discordapp.net/external/o6XlHS-LeGoSxkoy-wBaabe44FOIbFz49nycfm8tfug/https/www.epicgames.com/fortnite/en-US/creative/docs/Images/using-accolades-devices-in-fortnite-creative/accolade-device-hero.png?width=1200&height=343)
 # ACCOLADE DEVICE
 With the **Accolade** device, you can set up your islands so players will earn Battle Pass XP when they interact with your island. Accolades are achievements or accomplishments that players can complete to earn XP.
 
