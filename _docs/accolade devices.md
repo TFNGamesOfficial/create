@@ -3,7 +3,6 @@ name: Accolade Devices
 tools: [Recently added, Device, Island]
 image: https://www.epicgames.com/fortnite/en-US/creative/docs/Images/using-accolades-devices-in-fortnite-creative/accolade-device-hero.png
 description: Help players earn Season Pass and Laboratory Pass XP using the Accolade device.
-external_url: https://devnitecreative.github.io/docs/using-devices/accolade-devices/
 ---
 
 ![Accolade](https://images-ext-1.discordapp.net/external/o6XlHS-LeGoSxkoy-wBaabe44FOIbFz49nycfm8tfug/https/www.epicgames.com/fortnite/en-US/creative/docs/Images/using-accolades-devices-in-fortnite-creative/accolade-device-hero.png?width=1200&height=343)
