@@ -5,26 +5,38 @@ weight: 2
 permalink: /login/
 ---
 
-<html>
-	<head>
-		<title>Login with Google</title>
-		<meta name="google-signin-client_id" content="613333463192-10evgsp176jf54h7nv60h8t7uq17rrbp.apps.googleusercontent.com">
-		<script src="https://apis.google.com/js/platform.js" async defer></script>
-		<button onclick="signOut()">Sign Out</button>
-	</head>
-
-	<body>
-		<h1>Demo</h1>
-		<div class="g-signin2" data-onsuccess="onSignIn"></div>
-	</body>
-
-	<script>
-		function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
-	</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://slutares.sirv.com/css/login.css">
+   <!-- Font Awesome Cdn Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Hello Again!</h1>
+    <p>Welcome back you've <br> been missed!</p>
+    <form>
+      <input type="text" placeholder="Enter username">
+      <input type="password" placeholder="Password">
+      <p class="recover">
+        <a href="#">Recover Password</a>
+      </p>
+    </form>
+    <button>Sign in</button>
+    <p class="or">
+      ----- or continue with -----
+    </p>
+    <div class="icons">
+      <i class="fab fa-google"></i>
+      <i class="fab fa-github"></i>
+      <i class="fab fa-facebook"></i>
+    </div>
+    <div class="not-member">
+      Not a member? <a href="#">Register Now</a>
+    </div>
+  </div>
+</body>
 </html>
