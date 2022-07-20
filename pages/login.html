@@ -14,6 +14,7 @@ permalink: /login/
   <meta name="google-signin-client_id" content="613333463192-10evgsp176jf54h7nv60h8t7uq17rrbp.apps.googleusercontent.com">
   <div class="g-signin2" data-onsuccess="onSignIn">
 </div>
+<script>
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
   console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
@@ -21,5 +22,15 @@ function onSignIn(googleUser) {
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 }
+</script>
+<a href="#" onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
 </body>
 </html>
