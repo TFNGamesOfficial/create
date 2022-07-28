@@ -5,7 +5,7 @@ image: https://www.epicgames.com/fortnite/en-US/creative/docs/Images/using-accol
 description: Help players earn Season Pass and Laboratory Pass XP using the Accolade device.
 ---
 
-<p style="font-family: BBBC">This is dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text.</p>
+<p style="font-family: BBCB">This is dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text. This is more dummy text.</p>
 ![Accolade](https://images-ext-1.discordapp.net/external/o6XlHS-LeGoSxkoy-wBaabe44FOIbFz49nycfm8tfug/https/www.epicgames.com/fortnite/en-US/creative/docs/Images/using-accolades-devices-in-fortnite-creative/accolade-device-hero.png?width=1200&height=343)
 # ACCOLADE DEVICE
 With the **Accolade** device, you can set up your islands so players will earn Battle Pass XP when they interact with your island. Accolades are achievements or accomplishments that players can complete to earn XP.
