@@ -1,6 +1,6 @@
 ---
 name: Different information boxes
-tools: [Devices, How to, Docs]
+tools:  [Docs]
 image: 
 description: Different information boxes and their meanings
 ---

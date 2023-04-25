@@ -1,7 +1,6 @@
 ---
 name: Using Devices in Creative
 tools: [Devices, How to, Docs]
-image: https://www.epicgames.com/fortnite/en-US/creative/docs/Images/using-devices-in-fortnite-creative/devices-landing-hero.png
 description: Every device has a unique function — find out what each one does and how you can use them!
-external_url: https://www.tfngames.tk/devcreative/docs/using-devices/
+external_url: https://tfngamesofficial.github.io/devcreative/docs/using-devices/
 ---
