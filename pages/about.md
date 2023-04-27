@@ -7,8 +7,7 @@ weight: 3
 
 # **About Us**
 
-Hi we are the **{{ site.author.name }}** :wave:,<br>
-We (the **{{ site.author.name }}**) dont know what to write here lmao.
+Hi we are the **{{ site.author.name }}** :wave:
 
 <div class="row">
 {% include about/skills.html title="Progress" source=site.data.programming-skills %}
