@@ -13,7 +13,7 @@ description: TBA
 BETA  inventory
 
 
-The Devnite Creative Inventory is similar to the FNC Inventory. We have [Prefabs](htpps://dev.tfngames.tk/docs/using-prefabs), [Galleries](htpps://dev.tfngames.tk/docs/using-galleries), [Devices](htpps://dev.tfngames.tk/docs/using-devices) and the [Library](#using-the-library). 
+The Devnite Creative Inventory is similar to the FNC Inventory. We have [Prefabs](htpps://dev.tfngames.tk/docs/using-prefabs), [Galleries](htpps://dev.tfngames.tk/docs/using-galleries), [Devices](htpps://tfngamesofficial.github.io/docs/using-devices) and the [Library](#using-the-library). 
 
 
 # Using Playsets
@@ -41,7 +41,7 @@ Prefabs are buildings you can place in an instant!
 With the "My Library" tab you can download playsets from GitHub and [create](https://dev.tfngames.tk/docs/dnc/create-your-first-playset) your own Playset.
 
 ## Download GitHub playsets
-To download playsets via GitHub use the following steps:
+Follow the steps below to download playsets via GitHub:
 1. Visit the playset repo
 2. Copy the SSH line (Example: git@github.com:devgames/thebeginning.git)
 3. Open the "My Library" tab in DNC
@@ -67,5 +67,5 @@ You can download playsets uploaded by creators from the DevGames server. To down
 
 
 <div class="alert alert-danger" role="alert">
-  <strong>WARNING:</strong> Its recommended to use DG Marketplace playsets because they are verified!
+  <strong>WARNING:</strong> It is recommended to use DG Marketplace playsets as they are verified!
 </div>
