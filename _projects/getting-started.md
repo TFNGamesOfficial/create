@@ -5,7 +5,7 @@ description: TBA
 ---
 
 <div class="alert alert-primary" role="alert">
-  <strong>NOTE:</strong> DevNite Creative is currently in BETA!
+  <strong>NOTE:</strong> AThe images used are from the very early development phase and do not correspond to the release! We will update the images once the game is released.
 </div>
 
 # The Inventory
@@ -35,7 +35,7 @@ Prefabs are buildings you can place in an instant!
 
 # Using the Library
 
-**image here**
+![My Library](https://raw.githubusercontent.com/DevniteCreative/Rhinestone/main/assets/beforeadd.png)
 
 
 With the "My Library" tab you can download playsets from GitHub and [create](https://dev.tfngames.tk/docs/dnc/create-your-first-playset) your own Playset.
@@ -64,6 +64,10 @@ You can download playsets uploaded by creators from the DevGames server. To down
 7. Press "Search" and select the playset with the same path
 8. Finally press "Import **{playset}**"
 9. Now you can place it
+
+
+![Adding playset](https://raw.githubusercontent.com/DevniteCreative/Rhinestone/main/assets/addingplayset.png)
+Here is the "Add Playset" screen for DevGames Marketplace playsets!
 
 
 <div class="alert alert-danger" role="alert">
