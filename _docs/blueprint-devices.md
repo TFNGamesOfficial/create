@@ -1,5 +1,5 @@
 ---
-name: Accolade Devices
+name: Blueprint Devices
 tools: [Recently added, Device, Island]
 image: https://www.epicgames.com/fortnite/en-US/creative/docs/Images/using-accolades-devices-in-fortnite-creative/accolade-device-hero.png
 description: Help players earn Season Pass and Laboratory Pass XP using the Accolade device.
@@ -35,3 +35,31 @@ However, it may not be easy to recognize which options or values trigger context
 Basic options provide a way to name, describe and weight your awards. Other options control visibility, how the device is triggered, and who can trigger it.
 
 You can configure this device with the following options.
+
+<table>
+  <tr>
+    <th>Setting</th>
+    <th>Value</th>
+    <th>Value (V2)</th>
+    <th>UE4.28-TxE Values</th>
+  </tr>
+  <tr>
+    <td>Setting 1</td>
+    <td>Value 1</td>
+    <td>Value (V2) 1</td>
+    <td>UE4.28-TxE Values 1</td>
+  </tr>
+  <tr>
+    <td>Setting 2</td>
+    <td>Value 2</td>
+    <td>Value (V2) 2</td>
+    <td>UE4.28-TxE Values 2</td>
+  </tr>
+  <tr>
+    <td>Setting 3</td>
+    <td>Value 3</td>
+    <td>Value (V2) 3</td>
+    <td>UE4.28-TxE Values 3</td>
+  </tr>
+</table>
+
