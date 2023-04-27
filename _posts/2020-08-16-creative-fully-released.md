@@ -2,7 +2,7 @@
 title: Devnite Creative - Release
 tags: [Coming soon, Release, 7.19]
 style: border
-color: danger
+color: warning
 description: TBA
 ---
 
