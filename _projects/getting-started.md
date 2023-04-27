@@ -66,7 +66,7 @@ You can download playsets uploaded by creators from the DevGames server. To down
 9. Now you can place it
 
 
-![Adding playset](https://raw.githubusercontent.com/DevniteCreative/Rhinestone/main/assets/addingplayset.png)
+![Adding playset](https://raw.githubusercontent.com/DevniteCreative/Rhinestone/main/assets/addingplayset.png) + ![Adding playset](https://raw.githubusercontent.com/DevniteCreative/Rhinestone/main/assets/addingplayset.png)
 Here is the "Add Playset" screen for DevGames Marketplace playsets!
 
 
