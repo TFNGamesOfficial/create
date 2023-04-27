@@ -8,15 +8,15 @@ description: TBA
   <strong>NOTE:</strong> DevNite Creative is currently in BETA!
 </div>
 
-**The Inventory**
+# The Inventory
 ![beta inventory](https://raw.githubusercontent.com/DevniteCreative/Rhinestone/main/assets/devnitecreative.png)
 BETA  inventory
 
 
-The Devnite Creative Inventory is similar to the FNC Inventory. We have [Prefabs](htpps://dev.tfngames.tk/docs/using-prefabs), [Galleries](htpps://dev.tfngames.tk/docs/using-galleries), [Devices](htpps://dev.tfngames.tk/docs/using-prefabs) and the [Library](htpps://dev.tfngames.tk/docs/using-library-in-dnc). 
+The Devnite Creative Inventory is similar to the FNC Inventory. We have [Prefabs](htpps://dev.tfngames.tk/docs/using-prefabs), [Galleries](htpps://dev.tfngames.tk/docs/using-galleries), [Devices](htpps://dev.tfngames.tk/docs/using-prefabs) and the [Library](#using-the-library). 
 
 
-## Using the Library
+# Using the Library
 
 **image here**
 
