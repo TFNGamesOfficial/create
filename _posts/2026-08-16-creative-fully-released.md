@@ -1,8 +1,8 @@
 ---
-title: Devnite Creative - Update 00.20
-tags: [Recently added, Update, 00.20]
+title: Devnite Creative - Release
+tags: [Coming soon, Release, 7.19]
 style: border
-color: success
+color: danger
 description: TBA
 ---
 
