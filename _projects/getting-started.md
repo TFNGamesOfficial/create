@@ -25,6 +25,7 @@ With playsets you can spawn prefabs, galleries or devices!
 
 ## Using Prefabs
 
+Prefabs are buildings you can place in an instant! 
 
 ## Using Galleries
 
@@ -37,7 +38,7 @@ With playsets you can spawn prefabs, galleries or devices!
 **image here**
 
 
-With the "My Library" tab you can download prefabs from GitHub and [create](https://dev.tfngames.tk/docs/dnc/create-your-first-playset) your own Playset.
+With the "My Library" tab you can download playsets from GitHub and [create](https://dev.tfngames.tk/docs/dnc/create-your-first-playset) your own Playset.
 
 ## Download GitHub playsets
 To download playsets via GitHub use the following steps:
@@ -48,5 +49,23 @@ To download playsets via GitHub use the following steps:
 5. Finally press "Clone playset repo"
 
 <div class="alert alert-success" role="alert">
-  <strong>NOTE:</strong> This is working for every repo with SSH cloning!
+  <strong>NOTE:</strong> You can use non-github repos too!
+</div>
+
+
+## Download DevGames User playsets
+You can download playsets uploaded by creators from the DevGames server. To download via DG follow these steps:
+1. Visit the [official DevGames playset Marketplace](https://marketplace.devgames.com/home?type=playsets)
+2. Use the search bar and type in a name (Example: [GunGame Progressbar Device](https://marketplace.devgames.com/devgames/gg-progressbar-device))
+3. Press "Copy DG Path"
+4. Open the "My Library" tab in DNC
+5. Press "Add Playset" and select "DG Path"
+6. Paste the DG Path (It should look like this: **playset://creator@playsetname.devgames/playsetid**)
+7. Press "Search" and select the playset with the same path
+8. Finally press "Import **{playset}**"
+9. Now you can place it
+
+
+<div class="alert alert-danger" role="alert">
+  <strong>WARNING:</strong> Its recommended to use DG Marketplace playsets because they are verified!
 </div>
