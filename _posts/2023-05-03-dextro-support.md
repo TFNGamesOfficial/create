@@ -1,8 +1,8 @@
 ---
 title: Dextro is coming to DevUE
 tags: [Recently Published, Dextro, DevUE]
-style: fill
-color: warning
+style: border
+color: primary
 description: Dextro is coming to DevUE to support you! Read more...
 ---
 
@@ -30,7 +30,7 @@ After creating the class, open the Dextro dropdown menu again and select "Dextro
 
 ## "Using" Dextro attributes
 Each Dextro class uses "using" attributes to access different things like Devices. For a Dextro device, you need to use the following attribute:
-```
+```dextro
 using { dextro://devnite.com/devices }
 ```
 
