@@ -30,15 +30,27 @@ After creating the class, open the Dextro dropdown menu again and select "Dextro
 
 ## "Using" Dextro attributes
 Each Dextro class uses "using" attributes to access different things like Devices. For a Dextro device, you need to use the following attribute:
-```dextro
+```vbnet
 using { dextro://devnite.com/devices }
 ```
 
 
 If you want to use DevNite or UE devices you just need to define them. You can do this by using the following syntax:
+<head>
+<style>
+.variable-color {
+ color: blue
+}
 
-```
-EliminationFeed : elimination_feed_device()
-```
+.keyword-color {
+ color: red
+}
+</style>
+</head>
 
+<body>
+<code class="dextro">
+<span class="keyword-color">EliminationFeed</span> : <span class="variable-color">elimination_feed_device</span>{}
+</code>
+</body>
 You can find more information on the [Dextro Documentation](https://dev.dgames.org/docs/dextro).
