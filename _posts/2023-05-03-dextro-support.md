@@ -40,11 +40,11 @@ If you want to use DevNite or UE devices you just need to define them. You can d
 <head>
 <style>
 .variable-color {
- color: blue
+ color: cyan
 }
 
 .keyword-color {
- color: red
+ color: #FF6666
 }
 </style>
 </head>
