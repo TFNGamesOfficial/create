@@ -48,11 +48,13 @@ If you want to use DevNite or UE devices you just need to define them. You can d
 }
 </style>
 </head>
-```
+
 <body>
-<code class="dextro">
+<pre>
+<code class="language-dextro">
 <span class="keyword-color">EliminationFeed</span> : <span class="variable-color">elimination_feed_device</span>{}
 </code>
+</pre>
 </body>
-```
+
 You can find more information on the [Dextro Documentation](https://dev.dgames.org/docs/dextro).
