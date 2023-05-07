@@ -1,8 +1,8 @@
 ---
 title: Dextro is coming to DevUE
-tags: [Recently Published, Dextro, DevUE]
+tags: [Dextro, DevUE]
 style: border
-color: primary
+color: info
 description: Dextro is coming to DevUE to support you! Read more...
 ---
 
