@@ -36,7 +36,7 @@ using { dextro://devnite.com/devices }
 
 
 If you want to use DevNite or UE devices you just need to define them. You can do this by using the following syntax:
-```
+
 <head>
 <style>
 .variable-color {
@@ -48,7 +48,7 @@ If you want to use DevNite or UE devices you just need to define them. You can d
 }
 </style>
 </head>
-
+```
 <body>
 <code class="dextro">
 <span class="keyword-color">EliminationFeed</span> : <span class="variable-color">elimination_feed_device</span>{}
