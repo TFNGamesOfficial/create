@@ -58,6 +58,9 @@ collections:
   docs:
     output: true
     permalink: /docs/using-devices/:name
+  uedn:
+    output: true
+    permalink: /docs/unreal-editor/:name
 
 
 ### Disqus ###
@@ -92,6 +95,11 @@ defaults:
   - scope:
       path: ""
       type: "docs"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "uedn"
     values:
       layout: "page"
   - scope:
