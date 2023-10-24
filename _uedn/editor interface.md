@@ -1,8 +1,7 @@
 ---
 name: Editor Interface
 tools: [Recently added, Device, Island, Thumbnail]
-image: https://pbs.twimg.com/media/D2-je4nWoAAuv-9?format=jpg&name=large
-description: Create an Image that is used for Discovery if you get featured.
+description: Learn how to use the editor layout.
 ---
 # Editor Interface
 Overview of the key elements of the Unreal Editor interface
