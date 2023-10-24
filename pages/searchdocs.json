@@ -7,7 +7,9 @@ permalink: /searchdocs.json
     {
       "name"    : "{{ uedn.name | escape }}",
       "tools"     : "{{ uedn.tools | join: ', ' }}",
-      "url"      : "{{ uedn.external_url | default: uedn.url | relative_url }}"
+      "url"      : "{{ uedn.external_url | default: uedn.url | relative_url }}",
+      "desc"    : "{{ uedn.desc | escape }}",
+      "description"    : "{{ uedn.description | escape }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
