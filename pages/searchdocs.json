@@ -3,7 +3,7 @@ layout: null
 permalink: /searchdocs.json
 ---
 [
-  {% for post in site.uedn %}
+  {% for uedn in site.uedn %}
     {
       "name"    : "{{ uedn.name | escape }}",
       "tools"     : "{{ uedn.tools | join: ', ' }}",
