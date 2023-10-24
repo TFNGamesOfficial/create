@@ -4,7 +4,7 @@ tools: [How to, Basics]
 description: Steps for installing UEDN.
 ---
 <div class="alert alert-info" role="alert">
-  Before continuing, you should read the following topic: <a href="#" class="alert-link">Hardware and Software Specifications</a>
+  Before continuing, you should read the following topic: <a href="https://tfngamesofficial.github.io/devcreate/docs/unreal-editor/hardware-software-specs" class="alert-link">Hardware and Software Specifications</a>
 </div>
 
 This page describes how to download and install UEDN.
