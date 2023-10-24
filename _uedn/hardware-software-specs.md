@@ -15,6 +15,6 @@ This page covers the hardware and software requirements for Unreal Engine 5. It 
 
 The requirements for programmers developing with the engine are listed below.
 | Developing with the Engine | Required |
-| ----------- | ----------- |
+| ------------- | ------------- |
 | DirectX Runtime | DirectX End-User Runtimes (June 2010) |
 | Visual Studio version | Visual Studio 2019 v16.11.5 or later / Visual Studio 2022 |
