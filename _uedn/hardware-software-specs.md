@@ -14,6 +14,7 @@ This page covers the hardware and software requirements for Unreal Engine 5. It 
 | RHI | - DirectX 11: Latest drivers / DirectX 12: Latest drivers / Vulkan: AMD (21.11.3+) and NVIDIA (496.76+) | - |
 
 The requirements for programmers developing with the engine are listed below.
+
 | Developing with the Engine | Required |
 | ------------- | ------------- |
 | DirectX Runtime | DirectX End-User Runtimes (June 2010) |
