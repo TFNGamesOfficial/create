@@ -1,6 +1,6 @@
 ---
 name: Editor Interface
-tools: [Recently added, Device, Island, Thumbnail]
+tools: [Interface, Basics]
 description: Learn how to use the editor layout.
 ---
 # Editor Interface
