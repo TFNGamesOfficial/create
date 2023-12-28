@@ -5,14 +5,9 @@ description: Learn how to use the 4.27Plus Editor.
 ---
 <head>
   <style>
-.left {
-  width: 300px;
-}
-    
 #ticketForm select {
-  width: 100%;
+  width: 300px;
   padding: 10px;
-  margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
@@ -23,7 +18,7 @@ description: Learn how to use the 4.27Plus Editor.
     </style>
 </head>
 <form id="ticketForm">
-  <select class="left" id="engineversion" name="engineversion">
+  <select id="engineversion" name="engineversion">
     <option value="select">Choose Engine Version</option>
     <optgroup label="Unreal Editor for DevNite">
     <option value="423">Unreal Editor 4.23 Documentation</option>
