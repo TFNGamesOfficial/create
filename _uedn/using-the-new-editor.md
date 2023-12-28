@@ -3,6 +3,17 @@ name: Using the 4.27+ (Plus) Editor
 tools: [Unreal Editor, 4.24, Basics]
 description: Learn how to use the 4.27Plus Editor.
 ---
+#ticketForm select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #fff;
+}
+<form id="ticketForm">
   <select id="engineversion" name="engineversion">
     <option value="select">Choose Engine Version</option>
     <optgroup label="Unreal Editor for DevNite">
@@ -21,6 +32,7 @@ description: Learn how to use the 4.27Plus Editor.
     <option value="9248">Unreal Editor 92.48 Documentation</option>
     </optgroup>
   </select>
+</form>
   
 # Using the 4.27Plus Editor
 This page describes how to use the "4.27+" Editor.
