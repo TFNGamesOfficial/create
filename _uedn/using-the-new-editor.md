@@ -57,7 +57,7 @@ description: This is a testing for version selector (not working).
       // Placeholder documentation text for each version
       switch (version) {
         case "423":
-          return "Unreal Engine 4.23 introduced features such as Niagara Effects System and Chaos Physics.";
+          return "**Unreal Editor 4.23** includes better ...";
         case "424":
           return "Unreal Engine 4.24 included the Virtual Production features with new cine cameras and improvements to the sequencer.";
         case "427":
