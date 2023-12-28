@@ -11,6 +11,7 @@ description: Learn how to use the 4.27Plus Editor.
     
 #ticketForm select {
   width: 100%;
+  height: 50px;
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
