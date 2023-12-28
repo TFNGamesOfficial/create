@@ -22,8 +22,6 @@ description: This is a testing for version selector (not working).
 
 <body>
 
-  <h1>Using the Editor (BETA)</h1>
-
   <form id="ticketForm">
     <label for="engineversion">Choose Engine Version:</label>
     <select id="engineversion" name="engineversion" onchange="updateText()">
@@ -51,10 +49,14 @@ description: This is a testing for version selector (not working).
   </div>
 
   <div id="version423" class="documentationSection">
+    <h1>Using the 4.23 Editor</h1>
     <p>Documentation for Unreal Editor 4.23.</p>
+    <h2>Features</h2>
+    - More asset for custom games.
   </div>
 
   <div id="version424" class="documentationSection">
+    <h1>Using the 4.24 Editor</h1>
     <p>Documentation for Unreal Editor 4.24.</p>
   </div>
 
