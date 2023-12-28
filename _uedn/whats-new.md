@@ -1,7 +1,7 @@
 ---
-name: Using the Editor (BETA)
-tools: [Unreal Editor, BETA, Basics]
-description: This is a testing for version selector (not working).
+name: What's new?
+tools: [Unreal Editor, Updates]
+description: Updates for the newest engine version.
 ---
 <html>
 <head>
@@ -49,7 +49,7 @@ description: This is a testing for version selector (not working).
   </div>
 
   <div id="version423" class="documentationSection">
-    <h1>Using the 4.23 Editor</h1>
+    <h1>What's new in the 4.23 Editor</h1>
     <p>Documentation for Unreal Editor 4.23.</p>
     <h2>Features</h2>
     <h4>Chaos Physics and Chaos Destruction</h4>
@@ -68,7 +68,7 @@ description: This is a testing for version selector (not working).
   </div>
 
   <div id="version424" class="documentationSection">
-    <h1>Using the 4.24 Editor</h1>
+    <h1>What's new in the 4.24 Editor</h1>
     <p>Documentation for Unreal Editor 4.24.</p>
     <h2>Features</h2>
     <h4>Real-Time Editing</h4>
@@ -80,7 +80,7 @@ description: This is a testing for version selector (not working).
   </div>
 
   <div id="version427" class="documentationSection">
-    <p>Documentation for Unreal Editor 4.27Plus.</p>
+    <h1>What's new in the 4.27Plus Editor</h1>
   </div>
 
   <div id="version514" class="documentationSection">
