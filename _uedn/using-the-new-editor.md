@@ -13,6 +13,10 @@ description: This is a testing for version selector (not working).
       background-color: #242526;
       color: #fff;
     }
+
+    .documentationSection {
+      display: none;
+    }
   </style>
 </head>
 
@@ -42,44 +46,70 @@ description: This is a testing for version selector (not working).
     </select>
   </form>
 
-  <div id="documentationText">
+  <div id="documentationText" class="documentationSection">
     <p>Select a version to view documentation.</p>
+  </div>
+
+  <div id="version423" class="documentationSection">
+    <p>Documentation for Unreal Editor 4.23.</p>
+  </div>
+
+  <div id="version424" class="documentationSection">
+    <p>Documentation for Unreal Editor 4.24.</p>
+  </div>
+
+  <div id="version427" class="documentationSection">
+    <p>Documentation for Unreal Editor 4.27Plus.</p>
+  </div>
+
+  <div id="version514" class="documentationSection">
+    <p>Documentation for Unreal Editor 5.14.</p>
+  </div>
+
+  <div id="version8432" class="documentationSection">
+    <p>Documentation for Unreal Editor 84.32.</p>
+  </div>
+
+  <div id="version135" class="documentationSection">
+    <p>Documentation for Unreal Editor 1.35.</p>
+  </div>
+
+  <div id="version287" class="documentationSection">
+    <p>Documentation for Unreal Editor 2.87.</p>
+  </div>
+
+  <div id="version1367" class="documentationSection">
+    <p>Documentation for Unreal Editor 13.67.</p>
+  </div>
+
+  <div id="version9248" class="documentationSection">
+    <p>Documentation for Unreal Editor 92.48.</p>
   </div>
 
   <script>
     function updateText() {
       var selectedVersion = document.getElementById("engineversion").value;
-      var documentationText = getDocumentationText(selectedVersion);
-      document.getElementById("documentationText").innerHTML = documentationText;
+      hideAllSections();
+      showSelectedSection(selectedVersion);
     }
 
-    function getDocumentationText(version) {
-      // Placeholder documentation text for each version
-      switch (version) {
-        case "423":
-          return "**Unreal Editor 4.23** includes better ...";
-        case "424":
-          return "Unreal Engine 4.24 included the Virtual Production features with new cine cameras and improvements to the sequencer.";
-        case "427":
-          return "Unreal Engine 4.27Plus brings enhanced rendering capabilities, improved animation tools, and new virtual production features.";
-        case "514":
-          return "Unreal Engine 5.14 is a major release with the introduction of the Nanite virtualized geometry and Lumen global illumination.";
-        case "8432":
-          return "Unreal Engine 84.32 includes advanced AI tools, improved multiplayer features, and enhanced rendering capabilities.";
-        case "135":
-          return "Unreal Engine 1.35 introduced the basics of level design and basic scripting.";
-        case "287":
-          return "Unreal Engine 2.87 brought improvements to graphics and the introduction of Kismet visual scripting.";
-        case "1367":
-          return "Unreal Engine 13.67 featured advanced scripting capabilities and improvements to the rendering engine.";
-        case "9248":
-          return "Unreal Engine 92.48 includes advanced AI capabilities, improved physics simulation, and enhanced graphics.";
-        default:
-          return "Select a version to view documentation.";
+    function hideAllSections() {
+      var sections = document.getElementsByClassName("documentationSection");
+      for (var i = 0; i < sections.length; i++) {
+        sections[i].style.display = "none";
+      }
+    }
+
+    function showSelectedSection(version) {
+      var sectionId = "version" + version;
+      var selectedSection = document.getElementById(sectionId);
+      if (selectedSection) {
+        selectedSection.style.display = "block";
+      } else {
+        document.getElementById("documentationText").style.display = "block";
       }
     }
   </script>
-
 </body>
-
 </html>
+
