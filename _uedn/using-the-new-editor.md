@@ -10,7 +10,6 @@ description: Learn how to use the 4.27Plus Editor.
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  box-sizing: border-box;
   outline: none;
   background-color: #242526;
   color: #fff;
