@@ -6,7 +6,7 @@ description: Learn how to use the 4.27Plus Editor.
 <head>
   <style>
 #ticketForm select {
-  width: 300px;
+  width: 310px;
   border-radius: 5px;
   outline: none;
   background-color: #242526;
