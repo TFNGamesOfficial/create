@@ -62,11 +62,18 @@ description: This is a testing for version selector (not working).
     <h4>Virtual Texturing</h4>
         <li>Virtual Texturing allows for large texture sets to be streamed and displayed dynamically.</li>
         <li>Improved texture streaming and memory management for detailed and expansive worlds.</li>
+    <h4>Real-Time Blueprint Editing</h4>
+        <li>Real-time updates and changes to Blueprints without the need to restart the editor.</li>
+        <li>Faster iteration and development workflows for Blueprint-based systems.</li>
   </div>
 
   <div id="version424" class="documentationSection">
     <h1>Using the 4.24 Editor</h1>
     <p>Documentation for Unreal Editor 4.24.</p>
+    <h2>Features</h2>
+    <h4>Real-Time Editing</h4>
+      <li>Edit the level and push changes directly to the Servers without publishing to a new version.</li>
+      <li><li>Also available while editing (showing your changes live without pushing changes).</li></li>
   </div>
 
   <div id="version427" class="documentationSection">
