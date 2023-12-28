@@ -74,6 +74,9 @@ description: This is a testing for version selector (not working).
     <h4>Real-Time Editing</h4>
       <li>Edit the level and push changes directly to the Servers without publishing to a new version.</li>
       <ul><li>Also available while editing (showing your changes live without pushing changes).</li></ul>
+      <li>...</li>
+    <h4>Creative and Marketplace Assets</h4>
+      <li>Add a "MarketplaceItemDefinition" to publish it to the Marketplace</li>
   </div>
 
   <div id="version427" class="documentationSection">
