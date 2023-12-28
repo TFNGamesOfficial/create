@@ -6,10 +6,7 @@ description: Learn how to use the 4.27Plus Editor.
 <head>
   <style>
 .left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 18px;
+  width: 300px;
 }
     
 #ticketForm select {
