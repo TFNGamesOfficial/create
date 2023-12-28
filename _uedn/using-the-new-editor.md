@@ -56,6 +56,12 @@ description: This is a testing for version selector (not working).
         <li>Introduction of the Chaos Physics and Chaos Destruction systems.</li>
         <li>Improved and more realistic physics simulations for in-game objects.</li>
         <li>Enhanced destruction capabilities for creating realistic, dynamic environments.</li>
+    <h4>Niagara Visual Effect System</h4>
+        <li>Niagara, a new and powerful visual effects (VFX) editor for creating complex particle effects.</li>
+        <li>Improved scalability and performance for handling large numbers of particles.</li>
+    <h4>Virtual Texturing</h4>
+        <li>Virtual Texturing allows for large texture sets to be streamed and displayed dynamically.</li>
+        <li>Improved texture streaming and memory management for detailed and expansive worlds.</li>
   </div>
 
   <div id="version424" class="documentationSection">
