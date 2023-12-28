@@ -3,6 +3,8 @@ name: Using the 4.27+ (Plus) Editor
 tools: [Unreal Editor, 4.24, Basics]
 description: Learn how to use the 4.27Plus Editor.
 ---
+<head>
+  <style>
 #ticketForm select {
   width: 100%;
   padding: 10px;
@@ -13,6 +15,8 @@ description: Learn how to use the 4.27Plus Editor.
   outline: none;
   background-color: #fff;
 }
+    </style>
+</head>
 <form id="ticketForm">
   <select id="engineversion" name="engineversion">
     <option value="select">Choose Engine Version</option>
