@@ -3,6 +3,25 @@ name: Using the 4.27+ (Plus) Editor
 tools: [Unreal Editor, 4.24, Basics]
 description: Learn how to use the 4.27Plus Editor.
 ---
+  <select id="engineversion" name="engineversion">
+    <option value="select">Choose Engine Version</option>
+    <optgroup label="Unreal Editor for DevNite">
+    <option value="423">Unreal Editor 4.23 Documentation</option>
+    <option value="424">Unreal Editor 4.24 Documentation</option>
+    <option value="427">Unreal Editor 4.27Plus Documentation</option>
+    </optgroup>
+    <optgroup label="Unreal Editor for Rhinestone">
+    <option value="514">Unreal Editor 5.14 Documentation</option>
+    <option value="8432">Unreal Editor 84.32 Documentation</option>
+    </optgroup>
+    <optgroup label="Unreal Editor for Scoring BR/FB">
+    <option value="135">Unreal Editor 1.35 Documentation</option>
+    <option value="287">Unreal Editor 2.87 Documentation</option>
+    <option value="1367">Unreal Editor 13.67 Documentation</option>
+    <option value="9248">Unreal Editor 92.48 Documentation</option>
+    </optgroup>
+  </select>
+  
 # Using the 4.27Plus Editor
 This page describes how to use the "4.27+" Editor.
 <div class="alert alert-danger" role="alert">
