@@ -73,7 +73,7 @@ description: This is a testing for version selector (not working).
     <h2>Features</h2>
     <h4>Real-Time Editing</h4>
       <li>Edit the level and push changes directly to the Servers without publishing to a new version.</li>
-      <li><li>Also available while editing (showing your changes live without pushing changes).</li></li>
+      <ul><li>Also available while editing (showing your changes live without pushing changes).</li></ul>
   </div>
 
   <div id="version427" class="documentationSection">
