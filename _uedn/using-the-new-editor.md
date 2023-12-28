@@ -1,6 +1,6 @@
 ---
 name: Using the Editor (BETA)
-tools: [Unreal Editor, 4.24, Basics]
+tools: [Unreal Editor, BETA, Basics]
 description: This is a testing for version selector (not working).
 ---
 <head>
