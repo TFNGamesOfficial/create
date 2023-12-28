@@ -13,7 +13,8 @@ description: Learn how to use the 4.27Plus Editor.
   border-radius: 5px;
   box-sizing: border-box;
   outline: none;
-  background-color: #fff;
+  background-color: #242526;
+  color: #fff;
 }
     </style>
 </head>
