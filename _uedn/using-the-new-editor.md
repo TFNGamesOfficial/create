@@ -1,7 +1,7 @@
 ---
-name: Using the 4.27+ (Plus) Editor
+name: Using the Editor (BETA)
 tools: [Unreal Editor, 4.24, Basics]
-description: Learn how to use the 4.27Plus Editor.
+description: This is a testing for version selector.
 ---
 <head>
   <style>
@@ -17,7 +17,7 @@ description: Learn how to use the 4.27Plus Editor.
 
 <body>
 
-  <h1>Using the 4.27Plus Editor Documentation</h1>
+  <h1>Using the Editor (BETA)</h1>
 
   <form id="ticketForm">
     <label for="engineversion">Choose Engine Version:</label>
