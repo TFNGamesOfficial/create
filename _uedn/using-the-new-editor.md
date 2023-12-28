@@ -52,7 +52,10 @@ description: This is a testing for version selector (not working).
     <h1>Using the 4.23 Editor</h1>
     <p>Documentation for Unreal Editor 4.23.</p>
     <h2>Features</h2>
-    - More asset for custom games.
+    <h4>Chaos Physics and Chaos Destruction</h4>
+        <li>Introduction of the Chaos Physics and Chaos Destruction systems.</li>
+        <li>Improved and more realistic physics simulations for in-game objects.</li>
+        <li>Enhanced destruction capabilities for creating realistic, dynamic environments.</li>
   </div>
 
   <div id="version424" class="documentationSection">
