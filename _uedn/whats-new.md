@@ -6,6 +6,11 @@ description: Updates for the newest engine version.
 <html>
 <head>
   <style>
+    body {
+    background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
     #ticketForm select {
       width: 350px;
       border-radius: 5px;
@@ -20,7 +25,7 @@ description: Updates for the newest engine version.
   </style>
 </head>
 
-<body background="https://edc-cdn.net/assets/images/bg-header-unreal-engine.png">
+<body>
 
   <form id="ticketForm">
     <label for="engineversion">Choose Engine Version:</label>
