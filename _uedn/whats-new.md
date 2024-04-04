@@ -20,27 +20,15 @@ description: Updates for the newest engine version.
   </style>
 </head>
 
-<body>
+<body background="https://edc-cdn.net/assets/images/bg-header-unreal-engine.png">
 
   <form id="ticketForm">
     <label for="engineversion">Choose Engine Version:</label>
     <select id="engineversion" name="engineversion" onchange="updateText()">
       <option value="select">Choose Engine Version</option>
-      <optgroup label="Unreal Editor for DevNite">
-        <option value="423">Unreal Editor 4.23 Documentation</option>
+        <option value="419">Unreal Editor 4.19 Documentation</option>
         <option value="424">Unreal Editor 4.24 Documentation</option>
-        <option value="427">Unreal Editor 4.27Plus Documentation</option>
-      </optgroup>
-      <optgroup label="Unreal Editor for Rhinestone">
-        <option value="514">Unreal Editor 5.14 Documentation</option>
-        <option value="8432">Unreal Editor 84.32 Documentation</option>
-      </optgroup>
-      <optgroup label="Unreal Editor for Scoring BR/FB">
-        <option value="135">Unreal Editor 1.35 Documentation</option>
-        <option value="287">Unreal Editor 2.87 Documentation</option>
-        <option value="1367">Unreal Editor 13.67 Documentation</option>
-        <option value="9248">Unreal Editor 92.48 Documentation</option>
-      </optgroup>
+        <option value="500">Unreal Editor 5.0 Documentation</option>
     </select>
   </form>
 
@@ -48,9 +36,9 @@ description: Updates for the newest engine version.
     <p>Select a version to view documentation.</p>
   </div>
 
-  <div id="version423" class="documentationSection">
-    <h1>What's new in the 4.23 Editor</h1>
-    <p>Documentation for Unreal Editor 4.23.</p>
+  <div id="version419" class="documentationSection">
+    <h1>What's new in the 4.19 Editor</h1>
+    <p>Documentation for Unreal Editor 4.19</p>
     <h2>Features</h2>
     <h4>Chaos Physics and Chaos Destruction</h4>
         <li>Introduction of the Chaos Physics and Chaos Destruction systems.</li>
@@ -79,8 +67,8 @@ description: Updates for the newest engine version.
       <li>Add a "MarketplaceItemDefinition" to publish it to the Marketplace</li>
   </div>
 
-  <div id="version427" class="documentationSection">
-    <h1>What's new in the 4.27Plus Editor</h1>
+  <div id="version500" class="documentationSection">
+    <h1>What's new in the 5.0 Editor</h1>
   </div>
 
   <div id="version514" class="documentationSection">
