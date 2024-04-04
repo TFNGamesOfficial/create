@@ -3,6 +3,14 @@ name: Editor Interface
 tools: [Interface, Basics]
 description: Learn how to use the editor layout.
 ---
+<style>
+  body {
+    background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+
 # Editor Interface
 Overview of the key elements of the Unreal Editor interface
 
