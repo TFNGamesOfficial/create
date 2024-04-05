@@ -5,7 +5,7 @@ description: Learn how to use the editor layout.
 ---
 <style>
   body {
-    background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
+    background-image: url('https://slutares.sirv.com/img/website/unreal-editor-bg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
