@@ -64,7 +64,7 @@ font-display : swap;
             padding: 0;
         }
       .profile {
-            background-color: #141414;
+            background-color: transparent;
             width: 56rem;
             box-shadow: 0 0 0px rgba(0, 0, 0, 0);
             margin-left: 0 auto;
@@ -78,7 +78,7 @@ font-display : swap;
             width: 56rem;
             height: auto;
             align-items: stretch;
-            background-color: #222;
+            background-color: #202024;
             overflow: hidden;
             border-radius: 10px;
             padding: 0px;
@@ -116,29 +116,62 @@ font-display : swap;
             color: #aaa;
             margin-bottom: 5px;
         }
+
+      .breadcrumb-item {
+        color: #aaa;
+      }
+
+      .active {
+        color: #fff;
+      }
+      .doc-p {
+        color: #aaa;
+      }
+
+  .document-thumbnail {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
 </style><center>
-<div class="profile">
+<div class="profile"></center>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Documentation</a></li>
+    <li class="breadcrumb-item"><a href="#">Unreal Engine</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Unreal Engine 5.0 Documentation</li>
+  </ol>
+</nav><center>
     <h1 class="doc-h2">What's New</h1>
+    <p class="doc-p">Complete resources for learning to use Unreal Engine 5</p>
+  <img width="1920" height="335" class="document-thumbnail" src="https://ue-cdn.artstation.com/imgproxy/UB_lE5vWvkkrRDXe5n68ds3wo2E-nd12aFOvq0uKRH8/filename:ue5-hero.png/resizing_type:fill/width:1920/height:335/ext:jpg/aHR0cHM6Ly9kMWl2N2RiNDR5aGd4bi5jbG91ZGZyb250Lm5ldC9kb2N1bWVudGF0aW9uL2ltYWdlcy8yN2EwNTBmZS05ODMwLTRlOWMtYTk2Yy1kZjU5YWJiNTBiNjEvdWU1LWhlcm8ucG5n" alt="Unreal Engine 5.0 Documentation">
         <div class="doc-article">
           <div class="doc-container">
-                <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d79a8dad-9ea8-499f-bdf9-4b70e10f62ff/unreal-engine-5-release-notes-topic.png" alt="" class="doc-image">
                 <div class="doc-details">
-                    <div class="doc-title">Unreal Editor 5.0 Release Notes</div>
-                    <div class="doc-desc" style="text-align: left;">Overview of new and updated features in Unreal Editor (DevNite) 5.0</div>
+                    <div class="doc-title">What's New</div>
+                    <div class="doc-desc" style="text-align: left;">Information about new features in each release of Unreal Editor for DevNite.</div>
                 </div>
             </div>
               <div class="doc-container">
                 <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a0fd86e0-5939-4711-84c9-4b0a75d1ff9d/placeholder_topic.png" alt="" class="doc-image">
                 <div class="doc-details">
-                    <div class="doc-title">Beta Features</div>
-                    <div class="doc-desc" style="text-align: left;">Features that are in development, but available in a stable state.</div>
+                    <div class="doc-title">Understanding the Basics</div>
+                    <div class="doc-desc" style="text-align: left;">Essential skills and concepts to help you get started in Unreal Engine.</div>
                 </div>
             </div>
               <div class="doc-container">
                 <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a0fd86e0-5939-4711-84c9-4b0a75d1ff9d/placeholder_topic.png" alt="" class="doc-image">
                 <div class="doc-details">
-                    <div class="doc-title">Experimental Features</div>
-                    <div class="doc-desc" style="text-align: left;">Features that are still in flux and not quite ready for use in shipping projects.</div>
+                    <div class="doc-title">Working with Content</div>
+                    <div class="doc-desc" style="text-align: left;">Information on using art created in external applications, importing it into Unreal Engine, and setting it up for use in visualization and interactive applications.</div>
+                </div>
+            </div>
+              <div class="doc-container">
+                <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ca15294f-65ed-4fd5-be68-d32c3d7b6b2a/worlds_topic.png" alt="" class="doc-image">
+                <div class="doc-details">
+                    <div class="doc-title">Building Virtual Worlds</div>
+                    <div class="doc-desc" style="text-align: left;">Information on the tools and techniques for interactive environment and level design.</div>
                 </div>
             </div>
         </div>
