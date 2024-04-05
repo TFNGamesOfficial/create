@@ -143,6 +143,45 @@ font-display : swap;
     border-radius: 12px;
     margin-bottom: 2rem;
 }
+
+h3 {
+  position: relative;
+}
+
+h3.active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 5px;
+  height: 100%;
+  background-color: blue; /* Farbe des Streifens geändert zu blau */
+}
+
+.nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid transparent;
+}
+
+.nav a.active {
+  border-left: 5px solid blue; /* Farbe des Streifens geändert zu blau */
+}
+  
 </style><center>
 <div class="profile">
   <nav aria-label="breadcrumb">
@@ -153,6 +192,12 @@ font-display : swap;
     <li class="breadcrumb-item active" aria-current="page">Unreal Engine 5.0 Documentation</li>
   </ol>
 </nav>
+  <h2>ON THIS PAGE</h2>
+<div class="nav">
+  <a href="#section1">Programming and Scripting Reference</a>
+  <a href="#section2">Another Section</a>
+  <a href="#section3">Yet Another Section</a>
+</div>
     <h1 style="text-align: left;" class="doc-h2">Unreal Engine 5.0 Documentation</h1>
     <p style="text-align: left;" class="doc-p">Complete resources for learning to use Unreal Engine 5</p><br>
   <img width="1920" height="335" class="document-thumbnail" src="https://ue-cdn.artstation.com/imgproxy/UB_lE5vWvkkrRDXe5n68ds3wo2E-nd12aFOvq0uKRH8/filename:ue5-hero.png/resizing_type:fill/width:1920/height:335/ext:jpg/aHR0cHM6Ly9kMWl2N2RiNDR5aGd4bi5jbG91ZGZyb250Lm5ldC9kb2N1bWVudGF0aW9uL2ltYWdlcy8yN2EwNTBmZS05ODMwLTRlOWMtYTk2Yy1kZjU5YWJiNTBiNjEvdWU1LWhlcm8ucG5n" alt="Unreal Engine 5.0 Documentation">
