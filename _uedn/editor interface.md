@@ -8,6 +8,7 @@ description: Learn how to use the editor layout.
     background-image: url('https://slutares.sirv.com/img/website/unreal-editor-bg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    webkit-tap-highlight-color: #ff0000;
 }
 </style>
 
