@@ -8,12 +8,57 @@ remote_projects:
   - arduino-visitor-counter
 ---
 <style>
+
   body {
     background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-  
+  @font-face {
+font-family : "Recursive Mono";
+src : url(https://edc-cdn.net/assets/fonts/recursive-mono-regular.woff2) format("woff2");
+font-weight : 400;
+font-style : normal;
+}
+@font-face {
+font-family : Inter;
+src : url(https://edc-cdn.net/assets/fonts/inter-light.woff2) format("woff2");
+font-weight : 300;
+font-style : normal;
+font-display : swap;
+}
+@font-face {
+font-family : Inter;
+src : url(https://edc-cdn.net/assets/fonts/inter-regular.woff2) format("woff2");
+font-weight : 400;
+font-style : normal;
+font-display : swap;
+}
+@font-face {
+font-family : Inter;
+src : url(https://edc-cdn.net/assets/fonts/inter-medium.woff2) format("woff2");
+font-weight : 500;
+font-style : normal;
+font-display : swap;
+}
+@font-face {
+font-family : Inter;
+src : url(https://edc-cdn.net/assets/fonts/inter-bold.woff2) format("woff2");
+font-weight : 700;
+font-style : normal;
+font-display : swap;
+}
+@font-face {
+font-family : "Inter Tight";
+src : url(https://edc-cdn.net/assets/fonts/inter-tight.woff2) format("woff2");
+font-weight : 900;
+font-style : normal;
+font-display : swap;
+}
+
+      doc-h2 {
+        font-family: Inter;
+      }
         body {
             margin: 0;
             padding: 0;
@@ -24,6 +69,7 @@ remote_projects:
             box-shadow: 0 0 0px rgba(0, 0, 0, 0);
             margin-left: 0 auto;
             margin-right: 0 auto;
+            margin-top: 15px;
         }
         .doc-article {
             margin: 0 auto;
@@ -36,7 +82,7 @@ remote_projects:
             overflow: hidden;
             border-radius: 10px;
             padding: 0px;
-            margin: 25px;
+            margin-top: 25px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             display: flex;
             flex-direction: row;
@@ -69,10 +115,10 @@ remote_projects:
             font-size: 14px;
             color: #aaa;
             margin-bottom: 5px;
-    
+        }
 </style><center>
 <div class="profile">
-    <h4>What's New</h4>
+    <h1 class="doc-h2">What's New</h1>
         <div class="doc-article">
           <div class="doc-container">
                 <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d79a8dad-9ea8-499f-bdf9-4b70e10f62ff/unreal-engine-5-release-notes-topic.png" alt="" class="doc-image">
