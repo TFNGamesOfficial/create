@@ -13,11 +13,87 @@ remote_projects:
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+  
+        body {
+            margin: 0;
+            padding: 0;
+        }
+      .profile {
+            background-color: #141414;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        .doc-article {
+            margin: 0 auto;
+        }
+        .doc-container {
+            width: 56rem;
+            height: auto;
+            align-items: stretch;
+            background-color: #222;
+            overflow: hidden;
+            border-radius: 10px;
+            padding: 0px;
+            margin: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: row;
+            margin-left: 0 auto;
+            margin-right: 0 auto;
+        }
+        .doc-image {
+            width: 15%;
+            height: auto;
+            max-width: 15%;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            background-color: #222;
+            margin-right: 20px; 
+            object-fit: cover;
+        }
+        .doc-details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 5px;
+            overflow-wrap: break-all;
+        }
+        .doc-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+        .doc-desc {
+            font-size: 14px;
+            color: #aaa;
+            margin-bottom: 5px;
+    
 </style>
-<div class="alert alert-danger" role="alert">
-  <p>The tag button is currently <strong>not</strong> working!</p>
-  <hr>
-  <p>The sites may contain links to linkvertise! We remove this soon.</p>
-</div>
-{% include uedn/search.html %}
-{% include uedn/index.html %}
+<div class="profile">
+    <h4>What's New</h4>
+        <div class="doc-article"><center>
+          <div class="doc-container">
+                <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d79a8dad-9ea8-499f-bdf9-4b70e10f62ff/unreal-engine-5-release-notes-topic.png" alt="" class="doc-image">
+                <div class="doc-details">
+                    <div class="doc-name">Unreal Editor 5.0 Release Notes</div>
+                    <div class="doc-code" style="text-align: left;">Overview of new and updated features in Unreal Editor (DevNite) 5.0</div>
+                </div>
+            </div>
+              <div class="doc-container">
+                <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a0fd86e0-5939-4711-84c9-4b0a75d1ff9d/placeholder_topic.png" alt="" class="doc-image">
+                <div class="doc-details">
+                    <div class="doc-name">Beta Features</div>
+                    <div class="doc-code" style="text-align: left;">Features that are in development, but available in a stable state.</div>
+                </div>
+            </div>
+              <div class="doc-container">
+                <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a0fd86e0-5939-4711-84c9-4b0a75d1ff9d/placeholder_topic.png" alt="" class="doc-image">
+                <div class="doc-details">
+                    <div class="doc-name">Experimental Features</div>
+                    <div class="doc-code" style="text-align: left;">Features that are still in flux and not quite ready for use in shipping projects.</div>
+                </div>
+            </div>
+        </center></div>
+    </div>
