@@ -240,7 +240,7 @@ code {
   <p style="text-align: left;">This page describes the most common elements of the <strong>Unreal Engine 5 interface</strong> and what they do. It also links to other pages where you can learn more. Some of the elements described on this page, such as panels and menu bars, are generally the same across various parts of the engine. You should spend some time getting familiar with their general purpose and and functionality, especially if you're new to developing games and applications with Unreal Engine.</p>
   <br>
   <p style="text-align: left;">When you open Unreal Engine 5 for the first time, the <strong>Level Editor</strong> opens. You will see the following window:</p>
-    <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3947c961-4847-4df7-b604-bc0bcf40854a/ue5-default-interface.png" alt="">
+    <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3947c961-4847-4df7-b604-bc0bcf40854a/ue5-default-interface.png" width="800" alt=""></div>
     <table>
   <thead>
     <tr>
@@ -288,11 +288,11 @@ code {
   </tbody>
 </table><br>
   <h2 style="text-align: left;">Menu Bar</h2>
-    <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/42484885-71eb-457a-9eab-fcc8a7aae940/menu-bar.png" alt="">
+    <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/42484885-71eb-457a-9eab-fcc8a7aae940/menu-bar.png" alt=""></div>
   <p style="text-align: left;">Each editor in Unreal Engine has a <strong>menu bar</strong> that is located in the top-right of that editor window (Windows) or at the top of the screen (macOS). Some of the menus, such as <strong>File</strong>, <strong>Window</strong>, and <strong>Help</strong>, are present in all editor windows, not just the Level Editor. Others are editor-specific.</p><br>
   <h2 style="text-align: left;">Main Toolbar</h2>
   <p style="text-align: left;">The <strong>Main Toolbar</strong> contains shortcuts to some of the most used tools and commands in Unreal Editor. It is divided into the following areas:</p>
-  <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a5a0e141-cbf3-4963-b89d-0ef6cebf985b/main-toolbar.png" alt="">
+  <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a5a0e141-cbf3-4963-b89d-0ef6cebf985b/main-toolbar.png" alt=""></div>
   
 
 <br>
@@ -346,14 +346,14 @@ code {
       <li style="text-align: left;"><strong>Perspective</strong>, which is a 3D view you can navigate to see the contents of the viewport from different angles.</li>
       <li style="text-align: left;"><strong>Ortographic</strong>, which is a 2D view that looks down one of the main axes (X, Y, or Z).</li>
     </ul>
-    <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/abc80d74-e0a6-4a72-a9a9-74f932e16408/viewport-examples.png" alt=""><br>
+    <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/abc80d74-e0a6-4a72-a9a9-74f932e16408/viewport-examples.png" width="600" alt=""></div><br>
     <h2 style="text-align: left;">Content Browser / Content Drawer</h2>
     <p style="text-align: left;">The <strong>Content Browser</strong> is a file explorer window that displays all of the Assets, Blueprints, and other files contained in your project. You can use it to browse through your content, drag Assets into the Level, migrate Assets between projects, and more.</p>
-    <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/1b58678d-b5de-46fb-ae3d-da81a4d7144e/content-browser.png" alt="">
+    <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/1b58678d-b5de-46fb-ae3d-da81a4d7144e/content-browser.png" width="800" alt=""></div>
     <p style="text-align: left;">The <strong>Content Drawer</strong> button, located in the bottom-left corner of the Unreal Editor, opens a special instance of the Content Browser that automatically minimizes when it loses focus (that is, when you click away from it). To keep it open, click the <strong>Dock in Layout</strong> button in the top-right corner of the Content Drawer. This creates a new instance of the Content Browser, but you can still open a new Content Drawer.</p>
     <br>
     <h2 style="text-align: left;">Bottom Toolbar</h2>
-    <p style="text-align: left;">The Bottom Toolbar contains shortcuts to the Command Console, Output Log, and Derived Data functionality. It also displays source control status. It is divided into the following areas:</p><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/bf18b6ef-477b-43cc-b6cd-4f847eb53123/bottom-toolbar.png" alt="">
+    <p style="text-align: left;">The Bottom Toolbar contains shortcuts to the Command Console, Output Log, and Derived Data functionality. It also displays source control status. It is divided into the following areas:</p><div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/bf18b6ef-477b-43cc-b6cd-4f847eb53123/bottom-toolbar.png" alt=""></div>
     <table>
       <thead>
     <tr>
@@ -390,15 +390,15 @@ code {
         <br>
     <h2 style="text-align: left;">Outliner</h2>
     <p style="text-align: left;">The <strong>Outliner</strong> panel (formerly known as World Outliner) displays a hierarchical view of all content in your Level. By default, it is located in the upper-right corner of the Unreal Editor window.</p>
-    <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/7860d6d9-062e-4564-9a0f-43f69ceff29d/world-outliner.png" alt="">
+    <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/7860d6d9-062e-4564-9a0f-43f69ceff29d/world-outliner.png" alt=""></div>
      <p style="text-align: left;">You can also use the Outliner panel to:</p>
     <ul>
-      <li>Quickly hide or reveal Actors by clicking their associated <strong>Eye</strong> button.</li>
-      <li>Access an Actor's <strong>context menu</strong> by right-clicking that Actor. You can then perform additional, Actor-specific operations from that menu.</li>
-      <li>Create, move, and delete content folders.</li>
+      <li style="text-align: left;">Quickly hide or reveal Actors by clicking their associated <strong>Eye</strong> button.</li>
+      <li style="text-align: left;">Access an Actor's <strong>context menu</strong> by right-clicking that Actor. You can then perform additional, Actor-specific operations from that menu.</li>
+      <li style="text-align: left;">Create, move, and delete content folders.</li>
     </ul>
         <br>
     <h2 style="text-align: left;">Details Panel</h2>
-    <p style="text-align: left;">When you select an Actor in the Level Viewport, the <strong>Details</strong> panel will show the settings and properties that affect the Actor you selected. By default, it is located on the right side of the Unreal Editor window, under the <strong>World Outliner</strong> panel.</p><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/711bb535-278e-4e3f-b48a-6c40d0e9e0f1/details-panel.png" alt="">
+    <p style="text-align: left;">When you select an Actor in the Level Viewport, the <strong>Details</strong> panel will show the settings and properties that affect the Actor you selected. By default, it is located on the right side of the Unreal Editor window, under the <strong>World Outliner</strong> panel.</p><div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/711bb535-278e-4e3f-b48a-6c40d0e9e0f1/details-panel.png" width="900" alt=""></div>
 </div>
 </center>
