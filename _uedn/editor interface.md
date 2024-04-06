@@ -329,8 +329,9 @@ font-display : swap;
     <tr>
       <th class="doc-table1">2</th>
       <td class="doc-table1"><strong>Output Log</strong></td>
-      <td class="doc-table1">Behaves as any other command line interface: enter console commands to trigger specific editor behaviors. <br><div class="alert alert-doc-warn" role="alert">
-  Type <code>help</code> and press Enter to open a list of available console commands in your browser.</div></td>
+      <td class="doc-table1">Behaves as any other command line interface: enter console commands to trigger specific editor behaviors. <br><div class="alert alert-doc-warn" role="alert"><div style="display: flex;">
+        <i class="fa-solid fa-circle-info" style="color: rgb(255, 193, 7); margin-top: 18px;" aria-hidden="true"></i>
+  <p style="margin-top: 15px; margin-left: 10px; text-align: left;">Type <code>help</code> and press Enter to open a list of available console commands in your browser.</p></div></div></td>
     </tr>
     <tr>
       <th class="doc-table1">3</th>
