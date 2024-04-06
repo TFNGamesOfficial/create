@@ -10,7 +10,7 @@ remote_projects:
 <script src="https://kit.fontawesome.com/36b257c118.js" crossorigin="anonymous"></script>
 <style>
 .content-nav {
-  position: sticky;
+  position: fixed;
   right: 0;
   top: 40%;
 }
@@ -428,7 +428,7 @@ font-display : swap;
     </div></center>
 <script>
 window.addEventListener('scroll', function() {
-  let navLinks = document.querySelectorAll('.content-nav a');
+  let navLinks = document.querySelectorAll('content-nav a');
   let sections = document.querySelectorAll('section');
 
   sections.forEach((section, index) => {
