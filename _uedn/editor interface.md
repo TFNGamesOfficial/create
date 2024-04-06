@@ -252,15 +252,15 @@ font-display : swap;
   <h2 style="text-align: left;">1. Save Button</h2>
   <p style="text-align: left;">Click this button to save the Level that is currently open.</p>
   <br>
-  <h2 style="text-align: left;">2. Mode Selection
+  <h2 style="text-align: left;">2. Mode Selection</h2>
     <p style="text-align: left;">Contains shortcuts for quickly switching between different modes to edit content within your Level:</p>
   <ul>
-    <li>Select Editing</li>
-    <li>Landscape Editing</li>
-    <li>Foliage Editing</li>
-    <li>Mesh Painting</li>
-    <li>Fracture Editing</li>
-    <li>Brush Editing</li>
+    <li style="text-align: left;">Select Editing</li>
+    <li style="text-align: left;">Landscape Editing</li>
+    <li style="text-align: left;">Foliage Editing</li>
+    <li style="text-align: left;">Mesh Painting</li>
+    <li style="text-align: left;">Fracture Editing</li>
+    <li style="text-align: left;">Brush Editing</li>
   </ul><br>
   <h2 style="text-align: left;">3. Content Shortcuts</h2>
   <p style="text-align: left;">Contains shortcuts for adding and opening common types of content within the Level Editor.</p>
@@ -296,8 +296,8 @@ font-display : swap;
   <p style="text-align: left;">The <strong>Level Viewport</strong> displays the contents of the Level that is currently open. When you open a project in Unreal Engine, the project's default Level opens in the Level Viewport by default. This is where you can view and edit the contents of your active Level, whether it's a game environment, a product visualization app, or something else.</p>
       <p style="text-align: left;">The Level Viewport can generally display the contents of the Level in two different ways:</p>
     <ul>
-      <li><strong>Perspective</strong>, which is a 3D view you can navigate to see the contents of the viewport from different angles.</li>
-      <li><strong>Ortographic</strong>, which is a 2D view that looks down one of the main axes (X, Y, or Z).</li>
+      <li style="text-align: left;"><strong>Perspective</strong>, which is a 3D view you can navigate to see the contents of the viewport from different angles.</li>
+      <li style="text-align: left;"><strong>Ortographic</strong>, which is a 2D view that looks down one of the main axes (X, Y, or Z).</li>
     </ul>
     <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/abc80d74-e0a6-4a72-a9a9-74f932e16408/viewport-examples.png" alt=""><br>
     <h2 style="text-align: left;">Content Browser / Content Drawer</h2>
@@ -324,7 +324,7 @@ font-display : swap;
       <th>2</th>
       <td><strong>Output Log</strong></td>
       <td>Behaves as any other command line interface: enter console commands to trigger specific editor behaviors. <br><div class="alert alert-doc-warn" role="alert">
-  Type <code>help</code> and press Enter to open a list of available console commands in your browser.</td>
+  Type <code>help</code> and press Enter to open a list of available console commands in your browser.</div></td>
     </tr>
     <tr>
       <th>3</th>
