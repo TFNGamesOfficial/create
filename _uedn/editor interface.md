@@ -233,7 +233,6 @@ border-collapse: separate;
   }
 </style><center>
 <div class="profile">
-  <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/devcreate/">Developer</a></li>
     <li class="breadcrumb-item"><a href="/devcreate/docs/">Documentation</a></li>
@@ -241,7 +240,6 @@ border-collapse: separate;
     <li class="breadcrumb-item"><a href="/devcreate/docs/unreal-editor/get-started/">Get Started</a></li>
     <li class="breadcrumb-item active" aria-current="page">Unreal Editor Interface</li>
   </ol>
-</nav>
     <h1 style="text-align: left;" class="h2">Unreal Editor Interface</h1>
     <p style="text-align: left;" class="doc-p">Overview of the key elements of the Unreal Editor interface</p><br>
   <img width="1920" height="335" class="document-thumbnail" src="https://ue-cdn.artstation.com/imgproxy/GZPUr12sG24cwLowRvirYfQJ_NRSeH3lAOCTD9bjfOw/filename:ue5-hero.png/resizing_type:fill/width:1920/height:335/ext:jpg/aHR0cHM6Ly9kMWl2N2RiNDR5aGd4bi5jbG91ZGZyb250Lm5ldC9kb2N1bWVudGF0aW9uL2ltYWdlcy9jZjNiMGJjYy0yMGI3LTQzYzEtYWM2MC1mNmQ1OTc2MDc3MTgvdWU1LWhlcm8ucG5n" alt="Unreal Engine 5.0 Documentation">
