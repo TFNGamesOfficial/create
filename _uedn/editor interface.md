@@ -7,15 +7,7 @@ description: Learn how to use the editor layout.
   body {
     background-image: url('https://slutares.sirv.com/img/website/unreal-editor-bg.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-tap-highlight-color: red;
 }
-
-  ::selection {
-    -webkit-tap-highlight-color: red;
-    -webkit-appearance: none;
-    background-color: rgba(255, 0, 0, 0.85) !important;
-  }
 </style>
 
 # Editor Interface
