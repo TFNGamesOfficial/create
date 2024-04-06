@@ -10,6 +10,8 @@ description: Learn how to use the editor layout.
     background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
     background-repeat: no-repeat;
     background-color: #101014;
+                margin: 0;
+            padding: 0;
 }
 
     h2 {
@@ -73,10 +75,6 @@ font-display : swap;
         font-family: Inter;
         font-weight: 900;
       }
-        body {
-            margin: 0;
-            padding: 0;
-        }
       .profile {
             background-color: translate;
             width: 56rem;
