@@ -9,6 +9,12 @@ remote_projects:
 ---
 <script src="https://kit.fontawesome.com/36b257c118.js" crossorigin="anonymous"></script>
 <style>
+.content-nav {
+  position: sticky;
+  right: 0;
+  top: 40%;
+}
+  
 .content-nav.is-collapsible {
     position: relative
 }
@@ -329,13 +335,16 @@ font-display : swap;
   </header>
   <ul class="list">
     <li class="list-item is-level-1">
-      <a class="list-link" href="#using-uedn-and-dextro">Using UEDN and Dextro & C++</a>
+      <a class="list-link" href="#usinguednanddextro">Using UEDN and Dextro & C++</a>
     </li>
     <li class="list-item is-level-1">
-      <a class="list-link" href="/docs/unreal-editor/get-started/editor-interface#">Main Toolbar</a>
+      <a class="list-link" href="#learn-programming-dextro">Learn Programming with Dextro</a>
     </li>
         <li class="list-item is-level-2">
-      <a class="list-link" href="/docs/unreal-editor/get-started/editor-interface#">1. Save Button</a>
+      <a class="list-link" href="#ue-beginner-resources">Unreal Engine Beginner Resources</a>
+    </li>
+    <li>
+      <a class="list-link" href="#dive-into-uedn">Dive into UEDN</a>
     </li>
 </ul>
 </content-nav>
@@ -353,7 +362,7 @@ font-display : swap;
   <p style="text-align: left;"><strong>Unreal Editor for DevNite (UEDN)</strong> leverages the power of <a class="doc-links" href="https://docs.unrealengine.com/">Unreal Engine (UE)</a> and combines it with DevNite Creative and all its assets to give you vastly expanded functionality that you can use with the Creative toolset.</p>      
   <br>
   <p style="text-align: left;">Learn to add even more customization and unique interactions in UEDN with the programming language Dextro that's designed with gaming and the metaverse in mind!</p>
-  <section id="usinguednanddextro" class="h2" style="text-align: left;">Using UEDN and Dextro</section>
+  <section id="usinguednanddextro" class="h2" style="text-align: left;">Using UEDN and Dextro & C++</section>
   <p style="text-align: left;">Learn the UEDN workflow: create a new <strong>level</strong>, test it, then upload the assets into Creative.</p>
   <ul>
   <li style="text-align: left;"><strong><a class="doc-links" href="#">Start out</a></strong>: Explore the UEDN UI, learn how to start and organize a new project, and other basics.</li>
@@ -362,14 +371,14 @@ font-display : swap;
     <li style="text-align: left;"><strong>Deep dive into UEFN's features</strong>: Create your own unique islands, animations, environments and landscapes, and visual effects (VFX).</li>
     <li style="text-align: left;"><strong><a class="doc-links" href="#">Learn the basics of programming with Dextro or C++</a></strong>: Add an extra layer of customization, create your own devices, and more!</li>
 </ul>
-  <h2 style="text-align: left;">Learn Programming with Dextro</h2>
+  <section id="learn-programming-dextro" class="h2" style="text-align: left;">Learn Programming with Dextro</section>
   <p style="text-align: left;">New to programming? Our Dextro guides are here to walk you through programming basics while learning Dextro by combining hands-on tutorials and relevant explanations. Get started with the classic <a class="doc-links" href="#"> "Hello World!" programming example</a> and use the language quick reference as a handy tool for your basic language needs. Or, access the full Dextro Language Reference and the Dextro API Reference for all your Dextro language needs.</p>
 <div class="alert alert-doc" role="alert">
     <div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: #aaaaae; margin-top: 18px;" aria-hidden="true"></i>
         <p style="margin-top: 15px; margin-left: 10px; text-align: left;">New to <strong>Fortnite Creative</strong>? Check out the DevNite Creative Documentation site for the basics on building an island!</p>
     </div></div>
-  <h2 style="text-align: left;">Unreal Engine Beginner Resources</h2>
+  <section id="ue-beginner-resources" class="h2" style="text-align: left;">Unreal Engine Beginner Resources</section>
   <p style="text-align: left;">UEDN uses the Unreal Engine core interface. If you’re unfamiliar with UE, check out these docs to help you get oriented to UEDN.</p>
   <ul>
 <li style="text-align: left;"><a class="doc-links" href="/devcreate/docs/unreal-editor/editor-interface/">Unreal Editor Interface</a></li>
@@ -377,7 +386,7 @@ font-display : swap;
 <li style="text-align: left;"><a class="doc-links" href="https://docs.unrealengine.com/5.0/transforming-actors-in-unreal-engine/">Actor Manipulation</a></li>
 <li style="text-align: left;"><a class="doc-links" href="https://docs.unrealengine.com/5.0/foundational-knowledge-in--unreal-engine/">UE5 Foundational Knowledge</a></li>
   </ul>
-  <h2 style="text-align: left;">Dive into UEDN!</h2>
+  <section id="dive-into-uedn" class="h2" style="text-align: left;">Dive into UEDN!</section>
   <div class="alert alert-doc" role="alert">
     <div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: #aaaaae; margin-top: 18px;" aria-hidden="true"></i>
@@ -417,3 +426,17 @@ font-display : swap;
             </div>
         </div>
     </div></center>
+<script>
+window.addEventListener('scroll', function() {
+  let navLinks = document.querySelectorAll('content-nav a');
+  let sections = document.querySelectorAll('section');
+
+  sections.forEach((section, index) => {
+    let rect = section.getBoundingClientRect();
+    if (rect.top <= 0 && rect.bottom >= 0) {
+      navLinks.forEach(link => link.classList.remove('is-active'));
+      navLinks[index].classList.add('is-active');
+    }
+  });
+});
+</script>
