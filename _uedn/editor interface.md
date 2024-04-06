@@ -272,7 +272,7 @@ code {
       <td class="" style="vertical-align: top;">Displays a hierarchical tree view of all content in your Level.</td>
     </tr>
         <tr>
-      <td class=" td1 style="vertical-align: top;"">7</td>
+      <td class=" td1" style="vertical-align: top;"">7</td>
       <td class="" style="vertical-align: top;"><strong>Details</strong> panel</td>
       <td class=" td2" style="vertical-align: top;">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td>
     </tr>
@@ -311,8 +311,8 @@ code {
   </thead>
   <tbody>
     <tr>
-      <td class=" td3 style="vertical-align: top;"" scope="row">Create</td>
-      <td class=" td4 style="vertical-align: top;"">Choose from a list of common Assets to quickly add to your Level. You can also access the <strong>Place Actors</strong> panels from this menu.</td>
+      <td class=" td3" style="vertical-align: top;" scope="row">Create</td>
+      <td class=" td4" style="vertical-align: top;">Choose from a list of common Assets to quickly add to your Level. You can also access the <strong>Place Actors</strong> panels from this menu.</td>
     </tr>
     <tr>
       <td class="" style="vertical-align: top;" scope="row">Blueprints</td>
@@ -372,9 +372,9 @@ code {
       <td class="" style="vertical-align: top;">Provides Derived Data functionality.</td>
     </tr>
     <tr>
-      <td class=" td2 style="vertical-align: top;"">4</td>
+      <td class="td2" style="vertical-align: top;">4</td>
       <td class="" style="vertical-align: top;">Source Control Status</td>
-      <td class=" td1 style="vertical-align: top;"">Displays source control status if your project is connected to source control (for example, GitHub or Perforce). Otherwise, this will say <i>Source Control Off</i>.</td>
+      <td class="td1" style="vertical-align: top;">Displays source control status if your project is connected to source control (for example, GitHub or Perforce). Otherwise, this will say <i>Source Control Off</i>.</td>
     </tr>
   </tbody>
 </table>
