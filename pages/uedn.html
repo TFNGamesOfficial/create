@@ -9,13 +9,141 @@ remote_projects:
 ---
 <script src="https://kit.fontawesome.com/36b257c118.js" crossorigin="anonymous"></script>
 <style>
-content-nav {
-    position: fixed;
-    right: 0;
-    top: 25%;
-    transform: translateY(-50%);
-    overflow-wrap: break-all;
+.content-nav.is-collapsible {
+    position: relative
 }
+
+.content-nav.is-collapsible .list {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    background: #000;
+    padding: 1rem;
+    margin-top: .25rem;
+    width: 100%
+}
+
+.content-nav.is-scrollable {
+    min-height: calc(var(--site-y-visible-height) - 1rem);
+    display: flex;
+    flex-direction: column
+}
+
+.content-nav.is-scrollable .ng-scrollbar {
+    flex-grow: 1
+}
+
+.content-nav.is-scrollable .list {
+    padding-bottom: 0
+}
+
+.content-nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem
+}
+
+.content-nav-header .title {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase
+}
+
+.content-nav-header .sublink {
+    font-size: .875rem;
+    color: #26bbff;
+    text-decoration: none
+}
+
+.content-nav-header .sublink:hover {
+    text-decoration: underline
+}
+
+.content-nav .btn {
+    font-size: .875rem;
+    letter-spacing: normal;
+    border-width: .125rem;
+    margin-bottom: 1.5rem;
+    text-transform: initial;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.content-nav .btn .material-icons {
+    font-size: 1.25rem
+}
+
+.content-nav .list {
+    list-style: none;
+    padding: 0 0 3rem;
+    margin: 0;
+    font-size: .875rem;
+    border-radius: 4px
+}
+
+.content-nav .list-item+.list-item {
+    margin-top: .5rem
+}
+
+.content-nav .list-item.is-level-2 {
+    padding-left: .75rem
+}
+
+.content-nav .list-item.is-level-3 {
+    padding-left: 1.5rem
+}
+
+.content-nav .list-item.is-level-4 {
+    padding-left: 2.25rem
+}
+
+.content-nav .list-item.is-level-5 {
+    padding-left: 3rem
+}
+
+.content-nav .list-item.is-level-6 {
+    padding-left: 3.75rem
+}
+
+.content-nav .list-link {
+    display: flex;
+    text-decoration: none;
+    color: #aaaaae;
+    transition: color .1s linear,border-left-color .1s linear;
+    padding-left: .875rem;
+    border-left: .125rem solid transparent
+}
+
+.content-nav .list-link:hover,.content-nav .list-link.is-active {
+    color: #e6e6ea
+}
+
+.content-nav .list-link.is-active {
+    font-weight: 700;
+    border-left-color: #26bbff
+}
+
+.content-nav .sub-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 1.25rem
+}
+
+.content-nav .sub-list .list-link {
+    font-weight: 400
+}
+.document-header .content-nav .list {
+    min-width: 16.25rem
+}
+
+
+
+
+  
   body {
     background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
     background-repeat: no-repeat;
@@ -188,9 +316,7 @@ font-display : swap;
             border-radius: 8px;
         }
 
-.content-nav .list-item.is-level-2 {
-    padding-left: .75rem;
-}
+
   
 </style>
 <content-nav class="content-nav">
