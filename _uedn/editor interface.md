@@ -218,15 +218,18 @@ code {
 
   .markdown-body table:not(.highlight) td, .markdown-body table:not(.highlight) th {
     border: 0px solid transparent;
-    padding: 8px 16px;
+padding: 18px 16px;
 }
 th, td {
   padding-left: 20px;
 }
 
   table {
-    border-collapse: separate;
+border-collapse: separate;
     border-spacing: 0 .125rem;
+    line-height: 1.4;
+    font-size: .875rem;
+    margin-bottom: 0;
   }
 </style><center>
 <div class="profile">
