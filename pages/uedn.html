@@ -9,7 +9,13 @@ remote_projects:
 ---
 <script src="https://kit.fontawesome.com/36b257c118.js" crossorigin="anonymous"></script>
 <style>
-
+content-nav {
+    position: fixed;
+    right: 0;
+    top: 25%;
+    transform: translateY(-50%);
+    overflow-wrap: break-all;
+}
   body {
     background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
     background-repeat: no-repeat;
@@ -179,9 +185,29 @@ font-display : swap;
             border-radius: 8px;
         }
 
-
+.content-nav .list-item.is-level-2 {
+    padding-left: .75rem;
+}
   
-</style><center>
+</style>
+<content-nav class="content-nav">
+  <header class="content-nav-header">
+    <div class="title">Auf dieser Seite</div>
+  </header>
+  <ul class="list">
+    <li class="list-item is-level-1">
+      <a class="list-link is-active" href="/docs/unreal-editor/get-started/editor-interface#">Menu Bar</a>
+    </li>
+    <li class="list-item is-level-1">
+      <a class="list-link is-active" href="/docs/unreal-editor/get-started/editor-interface#">Main Toolbar</a>
+    </li>
+        <li class="list-item is-level-2">
+      <a class="list-link is-active" href="/docs/unreal-editor/get-started/editor-interface#">1. Save Button</a>
+    </li>
+</ul>
+</content-nav>
+
+<center>
 <div class="profile">
   <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
