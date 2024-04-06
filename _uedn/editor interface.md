@@ -1,4 +1,5 @@
 ---
+layout: uednbeta
 name: Editor Interface
 tools: [Interface, Basics]
 description: Learn how to use the editor layout.
