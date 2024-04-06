@@ -202,6 +202,7 @@ code {
     border-radius: .5rem;
     border: .0625rem solid #262B3D;
     background: #0c0d16;
+  color: white;
     padding: .125rem .4375rem;
 }
   
@@ -213,6 +214,11 @@ code {
     background-color: transparent;
     border: 0px solid transparent;
     color: white;
+}
+
+  .markdown-body table:not(.highlight) td, .markdown-body table:not(.highlight) th {
+    border: 0px solid transparent;
+    padding: 8px 16px;
 }
 </style><center>
 <div class="profile">
@@ -272,9 +278,9 @@ code {
       <td class="" style="vertical-align: top;">Displays a hierarchical tree view of all content in your Level.</td>
     </tr>
         <tr>
-      <td class=" td1" style="vertical-align: top;"">7</td>
+      <td class=" td2" style="vertical-align: top;">7</td>
       <td class="" style="vertical-align: top;"><strong>Details</strong> panel</td>
-      <td class=" td2" style="vertical-align: top;">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td>
+      <td class=" td1" style="vertical-align: top;">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td>
     </tr>
   </tbody>
 </table><br>
