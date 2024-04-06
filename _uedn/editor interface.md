@@ -178,19 +178,19 @@ td {
   background-color: #373B4B;
 }
 
-  td3 {
+  .td3 {
   background-color: #373B4B;
     border-top-left-radius: 8px;
 }
-  td4 {
+  .td4 {
   background-color: #373B4B;
     border-top-right-radius: 8px;
 }
-  td1 {
+  .td1 {
   background-color: #373B4B;
     border-bottom-right-radius: 8px;
 }
-  td2 {
+  .td2 {
   background-color: #373B4B;
     border-bottom-left-radius: 8px;
 }
@@ -198,12 +198,20 @@ td {
   background-color: transparent;
 }
 
+code {
+    border-radius: .5rem;
+    border: .0625rem solid #262B3D;
+    background: #0c0d16;
+    padding: .125rem .4375rem;
+}
+  
   .markdown-body table:not(.highlight) th {
     padding-top: 12px;
     padding-bottom: 12px;
     font-weight: 500;
     text-align: left;
     background-color: transparent;
+    border: 0px solid transparent;
     color: white;
 }
 </style><center>
@@ -233,9 +241,9 @@ td {
   </thead>
   <tbody>
     <tr>
-      <td3 class="doc-table1">1</td3>
+      <td class="doc-table1 td3">1</td>
       <td class="doc-table1"><strong>Menu Bar</strong></td>
-      <td4 class="doc-table1">Use these menus to access editor-specific commands and functionality.</td4>
+      <td class="doc-table1 td4">Use these menus to access editor-specific commands and functionality.</td>
     </tr>
     <tr>
       <td class="doc-table1">2</td>
@@ -263,9 +271,9 @@ td {
       <td class="doc-table1">Displays a hierarchical tree view of all content in your Level.</td>
     </tr>
         <tr>
-      <td1 class="doc-table1">7</td1>
+      <td class="doc-table1 td1">7</td>
       <td class="doc-table1"><strong>Details</strong> panel</td>
-      <td2 class="doc-table1">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td2>
+      <td class="doc-table1 td2">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td>
     </tr>
   </tbody>
 </table><br>
@@ -346,9 +354,9 @@ td {
   </thead>
   <tbody>
     <tr>
-      <td3 class="doc-table1">1</td3>
+      <td class="doc-table1 td3">1</td>
       <td class="doc-table1">Output Log</td>
-      <td4 class="doc-table1">Debugging tool that prints out useful information while your application is running.</td4>
+      <td class="doc-table1 td4">Debugging tool that prints out useful information while your application is running.</td>
     </tr>
     <tr>
       <td class="doc-table1">2</td>
@@ -363,9 +371,9 @@ td {
       <td class="doc-table1">Provides Derived Data functionality.</td>
     </tr>
     <tr>
-      <td1 class="doc-table1">4</td1>
+      <td class="doc-table1 td1">4</td>
       <td class="doc-table1">Source Control Status</td>
-      <td2 class="doc-table1">Displays source control status if your project is connected to source control (for example, GitHub or Perforce). Otherwise, this will say <i>Source Control Off</i>.</td2>
+      <td class="doc-table1 td2">Displays source control status if your project is connected to source control (for example, GitHub or Perforce). Otherwise, this will say <i>Source Control Off</i>.</td>
     </tr>
   </tbody>
 </table>
