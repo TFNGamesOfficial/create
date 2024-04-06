@@ -177,6 +177,7 @@ font-display : swap;
         }
 td {
   background-color: #373B4B;
+  padding-left: 10px;
 }
 
   .td3 {
@@ -197,6 +198,7 @@ td {
 }
   th {
   background-color: transparent;
+    padding-left: 10px;
 }
 
 code {
