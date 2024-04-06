@@ -174,13 +174,16 @@ font-display : swap;
             border: .125rem solid #bc3;
             border-radius: 8px;
         }
-.doc-table1 {
+td {
   background-color: #202024;
 }
-  .doc-table2 {
+  th {
   background-color: transparent;
 }
 
+  td, th {
+    border-radius: 8px;
+  }
   
 </style><center>
 <div class="profile">
