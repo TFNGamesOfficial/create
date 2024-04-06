@@ -177,6 +177,23 @@ font-display : swap;
 td {
   background-color: #373B4B;
 }
+
+  td3 {
+  background-color: #373B4B;
+    border-top-left-radius: 8px;
+}
+  td4 {
+  background-color: #373B4B;
+    border-top-right-radius: 8px;
+}
+  td1 {
+  background-color: #373B4B;
+    border-bottom-right-radius: 8px;
+}
+  td2 {
+  background-color: #373B4B;
+    border-bottom-left-radius: 8px;
+}
   th {
   background-color: transparent;
 }
@@ -216,39 +233,39 @@ td {
   </thead>
   <tbody>
     <tr>
-      <th class="doc-table1">1</th>
+      <td3 class="doc-table1">1</td3>
       <td class="doc-table1"><strong>Menu Bar</strong></td>
-      <td class="doc-table1">Use these menus to access editor-specific commands and functionality.</td>
+      <td4 class="doc-table1">Use these menus to access editor-specific commands and functionality.</td4>
     </tr>
     <tr>
-      <th class="doc-table1">2</th>
+      <td class="doc-table1">2</td>
       <td class="doc-table1"><strong>Main Menu</strong></td>
       <td class="doc-table1">Contains shortcuts for some of the most common tools and editors in Unreal Engine, as well as shortcuts to enter Play mode (run your game inside Unreal Editor) and to deploy your project to other platforms.</td>
     </tr>
     <tr>
-      <th class="doc-table1">3</th>
+      <td class="doc-table1">3</td>
       <td class="doc-table1"><strong>Level Viewport</strong></td>
       <td class="doc-table1">Displays the contents of your Level, such as Cameras, Actors, Static Meshes, and so on.</td>
     </tr>
         <tr>
-      <th class="doc-table1">4</th>
+      <td class="doc-table1">4</td>
       <td class="doc-table1"><strong>Content Drawer</strong> button</td>
       <td class="doc-table1">Opens the <strong>Content Drawer</strong>, from which you can access all of the Assets in your Project.</td>
     </tr>
     <tr>
-      <th class="doc-table1">5</th>
+      <td class="doc-table1">5</td>
       <td class="doc-table1"><strong>Bottom Toolbar</strong></td>
       <td class="doc-table1">Contains shortcuts to the Command Console, Output Log, and Derived Data functionality. Also displays source control status.</td>
     </tr>
     <tr>
-      <th class="doc-table1">6</th>
+      <td class="doc-table1">6</td>
       <td class="doc-table1"><strong>Outliner</strong></td>
       <td class="doc-table1">Displays a hierarchical tree view of all content in your Level.</td>
     </tr>
         <tr>
-      <th class="doc-table1">7</th>
+      <td1 class="doc-table1">7</td1>
       <td class="doc-table1"><strong>Details</strong> panel</td>
-      <td class="doc-table1">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td>
+      <td2 class="doc-table1">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td2>
     </tr>
   </tbody>
 </table><br>
@@ -285,16 +302,16 @@ td {
   </thead>
   <tbody>
     <tr>
-      <th class="doc-table1" scope="row">Create</th>
-      <td class="doc-table1">Choose from a list of common Assets to quickly add to your Level. You can also access the <strong>Place Actors</strong> panels from this menu.</td>
+      <td3 class="doc-table1" scope="row">Create</td3>
+      <td4 class="doc-table1">Choose from a list of common Assets to quickly add to your Level. You can also access the <strong>Place Actors</strong> panels from this menu.</td4>
     </tr>
     <tr>
-      <th class="doc-table1" scope="row">Blueprints</th>
+      <td class="doc-table1" scope="row">Blueprints</td>
       <td class="doc-table1">Create and access Blueprints.</td>
     </tr>
     <tr>
-      <th class="doc-table1" scope="row">Cinematics</th>
-      <td class="doc-table1">Create a Level Sequence or Master Sequence cinematic.</td>
+      <td1 class="doc-table1" scope="row">Cinematics</td1>
+      <td2 class="doc-table1">Create a Level Sequence or Master Sequence cinematic.</td2>
     </tr>
   </tbody>
 </table><br>
@@ -329,26 +346,26 @@ td {
   </thead>
   <tbody>
     <tr>
-      <th class="doc-table1">1</th>
+      <td3 class="doc-table1">1</td3>
       <td class="doc-table1">Output Log</td>
-      <td class="doc-table1">Debugging tool that prints out useful information while your application is running.</td>
+      <td4 class="doc-table1">Debugging tool that prints out useful information while your application is running.</td4>
     </tr>
     <tr>
-      <th class="doc-table1">2</th>
+      <td class="doc-table1">2</td>
       <td class="doc-table1"><strong>Output Log</strong></td>
       <td class="doc-table1">Behaves as any other command line interface: enter console commands to trigger specific editor behaviors. <br><div class="alert alert-doc-warn" role="alert"><div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: rgb(255, 193, 7); margin-top: 18px;" aria-hidden="true"></i>
   <p style="margin-top: 15px; margin-left: 10px; text-align: left;">Type <code>help</code> and press Enter to open a list of available console commands in your browser.</p></div></div></td>
     </tr>
     <tr>
-      <th class="doc-table1">3</th>
+      <td class="doc-table1">3</td>
       <td class="doc-table1"><strong>Derived Data</strong></td>
       <td class="doc-table1">Provides Derived Data functionality.</td>
     </tr>
     <tr>
-      <th class="doc-table1">4</th>
+      <td1 class="doc-table1">4</td1>
       <td class="doc-table1">Source Control Status</td>
-      <td class="doc-table1">Displays source control status if your project is connected to source control (for example, GitHub or Perforce). Otherwise, this will say <i>Source Control Off</i>.</td>
+      <td2 class="doc-table1">Displays source control status if your project is connected to source control (for example, GitHub or Perforce). Otherwise, this will say <i>Source Control Off</i>.</td2>
     </tr>
   </tbody>
 </table>
