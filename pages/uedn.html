@@ -11,7 +11,7 @@ remote_projects:
 <style>
 .content-nav {
   position: fixed;
-  right: 0;
+  right: 150px;
   top: 40%;
 }
   
@@ -130,7 +130,7 @@ remote_projects:
 
 .content-nav .list-link.is-active {
     font-weight: 700;
-    border-left-color: #26bbff
+    border-left-color: #ff0000
 }
 
 .content-nav .sub-list {
@@ -340,7 +340,7 @@ font-display : swap;
     <li class="list-item is-level-1">
       <a class="list-link" href="#learn-programming-dextro">Learn Programming with Dextro</a>
     </li>
-        <li class="list-item is-level-2">
+        <li class="list-item is-level-1">
       <a class="list-link" href="#ue-beginner-resources">Unreal Engine Beginner Resources</a>
     </li>
     <li>
@@ -437,6 +437,15 @@ window.addEventListener('scroll', function() {
       navLinks.forEach(link => link.classList.remove('is-active'));
       navLinks[index].classList.add('is-active');
     }
+  });
+});
+
+  navLinks.forEach((link, index) => {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    navLinks.forEach(link => link.classList.remove('is-active'));
+    link.classList.add('is-active');
+    sections[index].scrollIntoView({behavior: "smooth"});
   });
 });
 </script>
