@@ -175,16 +175,20 @@ font-display : swap;
             border-radius: 8px;
         }
 td {
-  background-color: #202024;
+  background-color: #373B4B;
 }
   th {
   background-color: transparent;
 }
 
-  td, th {
-    border-radius: 8px;
-  }
-  
+  .markdown-body table:not(.highlight) th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
 </style><center>
 <div class="profile">
   <nav aria-label="breadcrumb">
