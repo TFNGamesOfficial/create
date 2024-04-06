@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : Devnite Create
+title               : DevNite Create
 description         : Official site for DevNite Creative and Unreal Editor for DevNite!
 baseurl             : "/devcreate"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          :     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
