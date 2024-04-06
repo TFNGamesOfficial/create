@@ -1,5 +1,4 @@
 ---
-layout: uednbeta
 name: Editor Interface
 tools: [Interface, Basics]
 description: Learn how to use the editor layout.
@@ -226,7 +225,11 @@ code {
 th, td {
   padding-left: 20px;
 }
-          
+
+  table {
+    border-collapse: separate;
+    border-spacing: 0 .125rem;
+  }
 </style><center>
 <div class="profile">
   <nav aria-label="breadcrumb">
