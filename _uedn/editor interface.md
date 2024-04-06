@@ -223,6 +223,10 @@ code {
     border: 0px solid transparent;
     padding: 8px 16px;
 }
+th, td {
+  padding-left: 20px;
+}
+          
 </style><center>
 <div class="profile">
   <nav aria-label="breadcrumb">
