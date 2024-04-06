@@ -175,24 +175,24 @@ font-display : swap;
             border-radius: 8px;
         }
 td {
-  background-color: ##202024;
+  background-color: #202024;
   padding-left: 10px;
 }
 
   .td3 {
-  background-color: ##202024;
+  background-color: #202024;
     border-top-left-radius: 8px;
 }
   .td4 {
-  background-color: ##202024;
+  background-color: #202024;
     border-top-right-radius: 8px;
 }
   .td1 {
-  background-color: ##202024;
+  background-color: #202024;
     border-bottom-right-radius: 8px;
 }
   .td2 {
-  background-color: ##202024;
+  background-color: #202024;
     border-bottom-left-radius: 8px;
 }
   th {
