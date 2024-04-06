@@ -234,46 +234,46 @@ code {
     <table class="table table-hover table-dark">
   <thead>
     <tr>
-      <th class="doc-table2" scope="col">Number</th>
-        <th class="doc-table2" scope="col">Name</th>
-      <th class="doc-table2" scope="col">Description</th>
+      <th scope="col">Number</th>
+        <th scope="col">Name</th>
+      <th scope="col">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="doc-table1 td3">1</td>
-      <td class="doc-table1"><strong>Menu Bar</strong></td>
-      <td class="doc-table1 td4">Use these menus to access editor-specific commands and functionality.</td>
+      <td class=" td3" style="vertical-align: top;">1</td>
+      <td class="" style="vertical-align: top;"><strong>Menu Bar</strong></td>
+      <td class=" td4" style="vertical-align: top;">Use these menus to access editor-specific commands and functionality.</td>
     </tr>
     <tr>
-      <td class="doc-table1">2</td>
-      <td class="doc-table1"><strong>Main Menu</strong></td>
-      <td class="doc-table1">Contains shortcuts for some of the most common tools and editors in Unreal Engine, as well as shortcuts to enter Play mode (run your game inside Unreal Editor) and to deploy your project to other platforms.</td>
+      <td class="" style="vertical-align: top;">2</td>
+      <td class="" style="vertical-align: top;"><strong>Main Menu</strong></td>
+      <td class="" style="vertical-align: top;">Contains shortcuts for some of the most common tools and editors in Unreal Engine, as well as shortcuts to enter Play mode (run your game inside Unreal Editor) and to deploy your project to other platforms.</td>
     </tr>
     <tr>
-      <td class="doc-table1">3</td>
-      <td class="doc-table1"><strong>Level Viewport</strong></td>
-      <td class="doc-table1">Displays the contents of your Level, such as Cameras, Actors, Static Meshes, and so on.</td>
+      <td class="" style="vertical-align: top;">3</td>
+      <td class="" style="vertical-align: top;"><strong>Level Viewport</strong></td>
+      <td class="" style="vertical-align: top;">Displays the contents of your Level, such as Cameras, Actors, Static Meshes, and so on.</td>
     </tr>
         <tr>
-      <td class="doc-table1">4</td>
-      <td class="doc-table1"><strong>Content Drawer</strong> button</td>
-      <td class="doc-table1">Opens the <strong>Content Drawer</strong>, from which you can access all of the Assets in your Project.</td>
+      <td class="" style="vertical-align: top;">4</td>
+      <td class="" style="vertical-align: top;"><strong>Content Drawer</strong> button</td>
+      <td class="" style="vertical-align: top;">Opens the <strong>Content Drawer</strong>, from which you can access all of the Assets in your Project.</td>
     </tr>
     <tr>
-      <td class="doc-table1">5</td>
-      <td class="doc-table1"><strong>Bottom Toolbar</strong></td>
-      <td class="doc-table1">Contains shortcuts to the Command Console, Output Log, and Derived Data functionality. Also displays source control status.</td>
+      <td class="" style="vertical-align: top;">5</td>
+      <td class="" style="vertical-align: top;"><strong>Bottom Toolbar</strong></td>
+      <td class="" style="vertical-align: top;">Contains shortcuts to the Command Console, Output Log, and Derived Data functionality. Also displays source control status.</td>
     </tr>
     <tr>
-      <td class="doc-table1">6</td>
-      <td class="doc-table1"><strong>Outliner</strong></td>
-      <td class="doc-table1">Displays a hierarchical tree view of all content in your Level.</td>
+      <td class="" style="vertical-align: top;">6</td>
+      <td class="" style="vertical-align: top;"><strong>Outliner</strong></td>
+      <td class="" style="vertical-align: top;">Displays a hierarchical tree view of all content in your Level.</td>
     </tr>
         <tr>
-      <td class="doc-table1 td1">7</td>
-      <td class="doc-table1"><strong>Details</strong> panel</td>
-      <td class="doc-table1 td2">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td>
+      <td class=" td1 style="vertical-align: top;"">7</td>
+      <td class="" style="vertical-align: top;"><strong>Details</strong> panel</td>
+      <td class=" td2" style="vertical-align: top;">Appears when you select an Actor. Displays various properties for that Actor, such as its <strong>Transform</strong> (position in the Level), Static Mesh, Material, and physics settings. This panel displays different settings depending on what you select in the Level Viewport.</td>
     </tr>
   </tbody>
 </table><br>
@@ -304,22 +304,22 @@ code {
     <table class="table table-hover table-dark">
   <thead>
     <tr>
-      <th class="doc-table2" scope="col">Shortcut</th>
-      <th class="doc-table2" scope="col">Description</th>
+      <th class="" scope="col">Shortcut</th>
+      <th class="" scope="col">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td3 class="doc-table1" scope="row">Create</td3>
-      <td4 class="doc-table1">Choose from a list of common Assets to quickly add to your Level. You can also access the <strong>Place Actors</strong> panels from this menu.</td4>
+      <td class=" td3 style="vertical-align: top;"" scope="row">Create</td>
+      <td class=" td4 style="vertical-align: top;"">Choose from a list of common Assets to quickly add to your Level. You can also access the <strong>Place Actors</strong> panels from this menu.</td>
     </tr>
     <tr>
-      <td class="doc-table1" scope="row">Blueprints</td>
-      <td class="doc-table1">Create and access Blueprints.</td>
+      <td class="" style="vertical-align: top;" scope="row">Blueprints</td>
+      <td class="" style="vertical-align: top;">Create and access Blueprints.</td>
     </tr>
     <tr>
-      <td1 class="doc-table1" scope="row">Cinematics</td1>
-      <td2 class="doc-table1">Create a Level Sequence or Master Sequence cinematic.</td2>
+      <td class=" td2" style="vertical-align: top;" scope="row">Cinematics</td>
+      <td class=" td1" style="vertical-align: top;">Create a Level Sequence or Master Sequence cinematic.</td>
     </tr>
   </tbody>
 </table><br>
@@ -347,33 +347,33 @@ code {
     <table>
       <thead>
     <tr>
-      <th class="doc-table2" scope="col">Number</th>
-      <th class="doc-table2" scope="col">Name</th>
-      <th class="doc-table2" scope="col">Description</th>
+      <th class="" scope="col">Number</th>
+      <th class="" scope="col">Name</th>
+      <th class="" scope="col">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="doc-table1 td3">1</td>
-      <td class="doc-table1">Output Log</td>
-      <td class="doc-table1 td4">Debugging tool that prints out useful information while your application is running.</td>
+      <td class=" td3" style="vertical-align: top;">1</td>
+      <td class="" style="vertical-align: top;">Output Log</td>
+      <td class=" td4" style="vertical-align: top;">Debugging tool that prints out useful information while your application is running.</td>
     </tr>
     <tr>
-      <td class="doc-table1">2</td>
-      <td class="doc-table1"><strong>Output Log</strong></td>
-      <td class="doc-table1">Behaves as any other command line interface: enter console commands to trigger specific editor behaviors. <br><div class="alert alert-doc-warn" role="alert"><div style="display: flex;">
+      <td class="" style="vertical-align: top;">2</td>
+      <td class="" style="vertical-align: top;"><strong>Command Line</strong></td>
+      <td class="" style="vertical-align: top;">Behaves as any other command line interface: enter console commands to trigger specific editor behaviors. <br><div class="alert alert-doc-warn" role="alert"><div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: rgb(255, 193, 7); margin-top: 18px;" aria-hidden="true"></i>
   <p style="margin-top: 15px; margin-left: 10px; text-align: left;">Type <code>help</code> and press Enter to open a list of available console commands in your browser.</p></div></div></td>
     </tr>
     <tr>
-      <td class="doc-table1">3</td>
-      <td class="doc-table1"><strong>Derived Data</strong></td>
-      <td class="doc-table1">Provides Derived Data functionality.</td>
+      <td class="" style="vertical-align: top;">3</td>
+      <td class="" style="vertical-align: top;"><strong>Derived Data</strong></td>
+      <td class="" style="vertical-align: top;">Provides Derived Data functionality.</td>
     </tr>
     <tr>
-      <td class="doc-table1 td1">4</td>
-      <td class="doc-table1">Source Control Status</td>
-      <td class="doc-table1 td2">Displays source control status if your project is connected to source control (for example, GitHub or Perforce). Otherwise, this will say <i>Source Control Off</i>.</td>
+      <td class=" td2 style="vertical-align: top;"">4</td>
+      <td class="" style="vertical-align: top;">Source Control Status</td>
+      <td class=" td1 style="vertical-align: top;"">Displays source control status if your project is connected to source control (for example, GitHub or Perforce). Otherwise, this will say <i>Source Control Off</i>.</td>
     </tr>
   </tbody>
 </table>
