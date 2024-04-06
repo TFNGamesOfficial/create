@@ -232,7 +232,7 @@ code {
   <br>
   <p style="text-align: left;">When you open Unreal Engine 5 for the first time, the <strong>Level Editor</strong> opens. You will see the following window:</p>
     <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3947c961-4847-4df7-b604-bc0bcf40854a/ue5-default-interface.png" alt="">
-    <table class="table table-hover table-dark">
+    <table>
   <thead>
     <tr>
       <th scope="col">Number</th>
@@ -302,7 +302,7 @@ code {
   </ul><br>
   <h2 style="text-align: left;">3. Content Shortcuts</h2>
   <p style="text-align: left;">Contains shortcuts for adding and opening common types of content within the Level Editor.</p>
-    <table class="table table-hover table-dark">
+    <table>
   <thead>
     <tr>
       <th class="" scope="col">Shortcut</th>
