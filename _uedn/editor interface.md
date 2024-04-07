@@ -5,13 +5,158 @@ description: Learn how to use the editor layout.
 ---
 <script src="https://kit.fontawesome.com/36b257c118.js" crossorigin="anonymous"></script>
 <style>
+.content-nav-container {
+  position: sticky;
+  position:-webkit-sticky;
+  width:300px;
+  top: 0;
+  height:0px;
+  bottom:0;
+  right: 0;
+  margin-left: auto;
+  padding-top:10px;
+}
+  
+.content-nav {
+  right: 50px;
+  top: 40%;
+}
+  
+.content-nav.is-collapsible {
+    position: relative
+}
 
+.content-nav.is-collapsible .list {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    background: #000;
+    padding: 1rem;
+    margin-top: .25rem;
+    width: 100%
+}
+
+.content-nav.is-scrollable {
+    min-height: calc(var(--site-y-visible-height) - 1rem);
+    display: flex;
+    flex-direction: column
+}
+
+.content-nav.is-scrollable .ng-scrollbar {
+    flex-grow: 1
+}
+
+.content-nav.is-scrollable .list {
+    padding-bottom: 0
+}
+
+.content-nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem
+}
+
+.content-nav-header .title {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase
+}
+
+.content-nav-header .sublink {
+    font-size: .875rem;
+    color: #26bbff;
+    text-decoration: none
+}
+
+.content-nav-header .sublink:hover {
+    text-decoration: underline
+}
+
+.content-nav .btn {
+    font-size: .875rem;
+    letter-spacing: normal;
+    border-width: .125rem;
+    margin-bottom: 1.5rem;
+    text-transform: initial;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.content-nav .btn .material-icons {
+    font-size: 1.25rem
+}
+
+.content-nav .list {
+    list-style: none;
+    padding: 0 0 3rem;
+    margin: 0;
+    font-size: .875rem;
+    border-radius: 4px
+}
+
+.content-nav .list-item+.list-item {
+    margin-top: .5rem
+}
+
+.content-nav .list-item.is-level-2 {
+    padding-left: .75rem
+}
+
+.content-nav .list-item.is-level-3 {
+    padding-left: 1.5rem
+}
+
+.content-nav .list-item.is-level-4 {
+    padding-left: 2.25rem
+}
+
+.content-nav .list-item.is-level-5 {
+    padding-left: 3rem
+}
+
+.content-nav .list-item.is-level-6 {
+    padding-left: 3.75rem
+}
+
+.content-nav .list-link {
+    display: flex;
+    text-decoration: none;
+    color: #aaaaae;
+    transition: color .1s linear,border-left-color .1s linear;
+    padding-left: .875rem;
+    border-left: .125rem solid transparent
+}
+
+.content-nav .list-link:hover,.content-nav .list-link.is-active {
+    color: #e6e6ea
+}
+
+.content-nav .list-link.is-active {
+    font-weight: 700;
+    border-left-color: #ff0000
+}
+
+.content-nav .sub-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 1.25rem
+}
+
+.content-nav .sub-list .list-link {
+    font-weight: 400
+}
+.document-header .content-nav .list {
+    min-width: 16.25rem
+}
+  
   body {
     background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
     background-repeat: no-repeat;
     background-color: #101014;
-                margin: 0;
-            padding: 0;
 }
 
     h2 {
@@ -231,7 +376,61 @@ border-collapse: separate;
     font-size: .875rem;
     margin-bottom: 0;
   }
-</style><center>
+  .table>:not(caption)>*>* {
+    padding: 1.125rem 1rem;
+    border-bottom-width: .125rem;
+}
+</style>
+<div class="content-nav-container">
+<content-nav class="content-nav">
+  <header class="content-nav-header">
+    <div class="title">on this site</div>
+  </header>
+  <ul class="list">
+    <li class="list-item is-level-1">
+      <a class="list-link" href="#menubar">Menu Bar</a>
+    </li>
+    <li class="list-item is-level-1">
+      <a class="list-link" href="#maintoolbar">Main Toolbar</a>
+    </li>
+        <li class="list-item is-level-2">
+      <a class="list-link" href="#savebutton">1. Save Button</a>
+    </li>
+    <li class="list-item is-level-2">
+      <a class="list-link" href="#modeselection">2. Mode Selection</a>
+    </li>
+        <li class="list-item is-level-2">
+      <a class="list-link" href="#contentshortcuts">3. Content Shortcuts</a>
+    </li>
+        <li class="list-item is-level-2">
+      <a class="list-link" href="#playmodecontrols">4. Play Mode Controls</a>
+    </li>
+        <li class="list-item is-level-2">
+      <a class="list-link" href="#platformsmenu">5. Platforms Menu</a>
+    </li>
+    <li class="list-item is-level-2">
+      <a class="list-link" href="#platformsmenu">6. Settings</a>
+    </li>
+    <li class="list-item is-level-1">
+      <a class="list-link" href="#levelviewport">Level Viewport</a>
+    </li>
+    <li class="list-item is-level-1">
+      <a class="list-link" href="#contentbrowser-contentdrawer">Content Browser / Content Drawer</a>
+    </li>
+    <li class="list-item is-level-1">
+      <a class="list-link" href="#bottomtoolbar">Bottom Toolbar</a>
+    </li>
+    <li class="list-item is-level-1">
+      <a class="list-link" href="#outliner">Outliner</a>
+    </li>
+    <li class="list-item is-level-1">
+      <a class="list-link" href="#detailspanel">Details Panel</a>
+    </li>
+    
+</ul>
+</content-nav>
+</div>
+<center>
 <div class="profile">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/devcreate/">Developer</a></li>
@@ -293,19 +492,19 @@ border-collapse: separate;
     </tr>
   </tbody>
 </table><br>
-  <h2 style="text-align: left;">Menu Bar</h2>
+  <section id="menubar" class="h2" style="text-align: left;">Menu Bar</section>
     <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/42484885-71eb-457a-9eab-fcc8a7aae940/menu-bar.png" alt=""></div>
   <p style="text-align: left;">Each editor in Unreal Engine has a <strong>menu bar</strong> that is located in the top-right of that editor window (Windows) or at the top of the screen (macOS). Some of the menus, such as <strong>File</strong>, <strong>Window</strong>, and <strong>Help</strong>, are present in all editor windows, not just the Level Editor. Others are editor-specific.</p><br>
-  <h2 style="text-align: left;">Main Toolbar</h2>
+  <section id="maintoolbar" class="h2" style="text-align: left;">Main Toolbar</section>
   <p style="text-align: left;">The <strong>Main Toolbar</strong> contains shortcuts to some of the most used tools and commands in Unreal Editor. It is divided into the following areas:</p>
   <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a5a0e141-cbf3-4963-b89d-0ef6cebf985b/main-toolbar.png" alt=""></div>
   
 
 <br>
-  <h2 style="text-align: left;">1. Save Button</h2>
+  <section id="savebutton" class="h2" style="text-align: left;">1. Save Button</section>
   <p style="text-align: left;">Click this button to save the Level that is currently open.</p>
   <br>
-  <h2 style="text-align: left;">2. Mode Selection</h2>
+  <section id="modeselection" class="h2" style="text-align: left;">2. Mode Selection</section>
     <p style="text-align: left;">Contains shortcuts for quickly switching between different modes to edit content within your Level:</p>
   <ul>
     <li style="text-align: left;">Select Editing</li>
@@ -315,7 +514,7 @@ border-collapse: separate;
     <li style="text-align: left;">Fracture Editing</li>
     <li style="text-align: left;">Brush Editing</li>
   </ul><br>
-  <h2 style="text-align: left;">3. Content Shortcuts</h2>
+  <section id="contentshortcuts" class="h2" style="text-align: left;">3. Content Shortcuts</section>
   <p style="text-align: left;">Contains shortcuts for adding and opening common types of content within the Level Editor.</p>
     <table>
   <thead>
@@ -339,13 +538,13 @@ border-collapse: separate;
     </tr>
   </tbody>
 </table><br>
-      <h2 style="text-align: left;">4. Play Mode Controls</h2>
+      <section id="playmodecontrols" class="h2" style="text-align: left;">4. Play Mode Controls</section>
   <p style="text-align: left;">Contains shortcut buttons (Play, Skip, Stop, and Eject) for running your game in the Editor.</p><br>
-          <h2 style="text-align: left;">5. Platforms Menu</h2>
+          <section id="platformsmenu" class="h2" style="text-align: left;">5. Platforms Menu</section>
   <p style="text-align: left;">Contains a series of options you can use to configure, prepare, and deploy your project to different platforms, such as desktop, mobile, or consoles.</p><br>
-          <h2 style="text-align: left;">6. Settings</h2>
+          <section id="settings" class="h2" style="text-align: left;">6. Settings</section>
   <p style="text-align: left;">Contains various settings for the Unreal Editor, Level Editor Viewport, and game behavior.</p><br>
-              <h2 style="text-align: left;">Level Viewport</h2>
+              <section id="levelviewport" class="h2" style="text-align: left;">Level Viewport</section>
   <p style="text-align: left;">The <strong>Level Viewport</strong> displays the contents of the Level that is currently open. When you open a project in Unreal Engine, the project's default Level opens in the Level Viewport by default. This is where you can view and edit the contents of your active Level, whether it's a game environment, a product visualization app, or something else.</p>
       <p style="text-align: left;">The Level Viewport can generally display the contents of the Level in two different ways:</p>
     <ul>
@@ -353,12 +552,12 @@ border-collapse: separate;
       <li style="text-align: left;"><strong>Ortographic</strong>, which is a 2D view that looks down one of the main axes (X, Y, or Z).</li>
     </ul>
     <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/abc80d74-e0a6-4a72-a9a9-74f932e16408/viewport-examples.png" width="600" alt=""></div><br>
-    <h2 style="text-align: left;">Content Browser / Content Drawer</h2>
+    <section id="contentbrowser-contentdrawer" class="h2" style="text-align: left;">Content Browser / Content Drawer</section>
     <p style="text-align: left;">The <strong>Content Browser</strong> is a file explorer window that displays all of the Assets, Blueprints, and other files contained in your project. You can use it to browse through your content, drag Assets into the Level, migrate Assets between projects, and more.</p>
     <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/1b58678d-b5de-46fb-ae3d-da81a4d7144e/content-browser.png" width="800" alt=""></div>
     <p style="text-align: left;">The <strong>Content Drawer</strong> button, located in the bottom-left corner of the Unreal Editor, opens a special instance of the Content Browser that automatically minimizes when it loses focus (that is, when you click away from it). To keep it open, click the <strong>Dock in Layout</strong> button in the top-right corner of the Content Drawer. This creates a new instance of the Content Browser, but you can still open a new Content Drawer.</p>
     <br>
-    <h2 style="text-align: left;">Bottom Toolbar</h2>
+    <section id="bottomtoolbar" class="h2" style="text-align: left;">Bottom Toolbar</section>
     <p style="text-align: left;">The Bottom Toolbar contains shortcuts to the Command Console, Output Log, and Derived Data functionality. It also displays source control status. It is divided into the following areas:</p><div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/bf18b6ef-477b-43cc-b6cd-4f847eb53123/bottom-toolbar.png" alt=""></div>
     <table>
       <thead>
@@ -394,7 +593,7 @@ border-collapse: separate;
   </tbody>
 </table>
         <br>
-    <h2 style="text-align: left;">Outliner</h2>
+    <section id="outliner" class="h2" style="text-align: left;">Outliner</section>
     <p style="text-align: left;">The <strong>Outliner</strong> panel (formerly known as World Outliner) displays a hierarchical view of all content in your Level. By default, it is located in the upper-right corner of the Unreal Editor window.</p>
     <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/7860d6d9-062e-4564-9a0f-43f69ceff29d/world-outliner.png" alt=""></div>
      <p style="text-align: left;">You can also use the Outliner panel to:</p>
@@ -404,7 +603,35 @@ border-collapse: separate;
       <li style="text-align: left;">Create, move, and delete content folders.</li>
     </ul>
         <br>
-    <h2 style="text-align: left;">Details Panel</h2>
+    <section id="detailspanel" class="h2" style="text-align: left;">Details Panel</section>
     <p style="text-align: left;">When you select an Actor in the Level Viewport, the <strong>Details</strong> panel will show the settings and properties that affect the Actor you selected. By default, it is located on the right side of the Unreal Editor window, under the <strong>World Outliner</strong> panel.</p><div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/711bb535-278e-4e3f-b48a-6c40d0e9e0f1/details-panel.png" width="900" alt=""></div>
 </div>
 </center>
+<script>
+// Code für das Scroll-Verhalten
+window.addEventListener('scroll', function() {
+  let navLinks = document.querySelectorAll('content-nav a');
+  let sections = document.querySelectorAll('section');
+
+  sections.forEach((section, index) => {
+    let rect = section.getBoundingClientRect();
+    if (rect.top <= 0 && rect.bottom >= 0) {
+      navLinks.forEach(link => link.classList.remove('is-active'));
+      navLinks[index].classList.add('is-active');
+    }
+  });
+});
+
+// Code für das Klick-Verhalten
+// JavaScript Code
+document.querySelectorAll('.list-link').forEach(item => {
+  item.addEventListener('click', event => {
+    // Entfernen Sie die is-active Klasse von allen Elementen
+    document.querySelectorAll('.list-link').forEach(link => {
+      link.classList.remove('is-active');
+    });
+    // Fügen Sie die is-active Klasse zum geklickten Element hinzu
+    event.target.classList.add('is-active');
+  })
+});
+</script>
