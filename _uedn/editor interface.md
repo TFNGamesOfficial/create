@@ -499,11 +499,11 @@ border-collapse: separate;
   </tbody>
 </table><br>
   <section id="menubar" class="h2" style="text-align: left;">Menu Bar</section>
-    <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img class="imgmenu" src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/42484885-71eb-457a-9eab-fcc8a7aae940/menu-bar.png" alt=""></div>
+    <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/42484885-71eb-457a-9eab-fcc8a7aae940/menu-bar.png" alt=""></div>
   <p style="text-align: left;">Each editor in Unreal Engine has a <strong>menu bar</strong> that is located in the top-right of that editor window (Windows) or at the top of the screen (macOS). Some of the menus, such as <strong>File</strong>, <strong>Window</strong>, and <strong>Help</strong>, are present in all editor windows, not just the Level Editor. Others are editor-specific.</p><br>
   <section id="maintoolbar" class="h2" style="text-align: left;">Main Toolbar</section>
   <p style="text-align: left;">The <strong>Main Toolbar</strong> contains shortcuts to some of the most used tools and commands in Unreal Editor. It is divided into the following areas:</p>
-  <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a5a0e141-cbf3-4963-b89d-0ef6cebf985b/main-toolbar.png" alt=""></div>
+  <div style="display: flex; justify-content: flex-start; align-items: flex-start;"><img class="imgmenu" src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a5a0e141-cbf3-4963-b89d-0ef6cebf985b/main-toolbar.png" alt=""></div>
   
 
 <br>
