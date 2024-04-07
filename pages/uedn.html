@@ -344,7 +344,7 @@ font-display : swap;
       <a class="list-link" href="#ue-beginner-resources">Unreal Engine Beginner Resources</a>
     </li>
     <li class="list-item is-level-1">
-      <a class="list-link" href="#dive-into-uedn">Dive into UEDN</a>
+      <a class="list-link" href="#dive-into-uedn">Dive into UEDN!</a>
     </li>
 </ul>
 </content-nav>
@@ -442,13 +442,16 @@ window.addEventListener('scroll', function() {
 });
 
 // Code für das Klick-Verhalten
-navLinks.forEach((link, index) => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
-    navLinks.forEach(link => link.classList.remove('is-active'));
-    link.classList.add('is-active');
-    sections[index].scrollIntoView({behavior: "smooth"});
-  });
+// JavaScript Code
+document.querySelectorAll('.list-link').forEach(item => {
+  item.addEventListener('click', event => {
+    // Entfernen Sie die is-active Klasse von allen Elementen
+    document.querySelectorAll('.list-link').forEach(link => {
+      link.classList.remove('is-active');
+    });
+    // Fügen Sie die is-active Klasse zum geklickten Element hinzu
+    event.target.classList.add('is-active');
+  })
 });
 </script>
 
