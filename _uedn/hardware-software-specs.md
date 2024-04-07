@@ -2,6 +2,7 @@
 name: Hardware and Software Specifications
 description: Minimum and recommended hardware specifications and necessary software for developing with Unreal Engine.
 tools: [Hardware, Important]
+external_url: https://tfngamesofficial.github.io/devcreate/docs/unreal-editor/get-started/hardware-and-software-specifications-for-unreal-engine/
 ---
 <script src="https://kit.fontawesome.com/36b257c118.js" crossorigin="anonymous"></script>
 <style>
