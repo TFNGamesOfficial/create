@@ -321,6 +321,7 @@ font-display : swap;
 td {
   background-color: #202024;
   padding-left: 10px;
+  padding: 20px 0px;
 }
 
   .td3 {
