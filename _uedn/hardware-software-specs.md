@@ -438,8 +438,8 @@ border-collapse: separate;
   </thead>
   <tbody>
     <tr>
-      <td><strong>Operating System</strong></td>
-      <td>Windows 10 64-bit version 1909 revision .1350 or higher, or versions 2004 and 20H2 revision .789 or higher</td>
+      <td class="td2"><strong>Operating System</strong></td>
+      <td class="td1">Windows 10 64-bit version 1909 revision .1350 or higher, or versions 2004 and 20H2 revision .789 or higher</td>
     </tr>
     <tr>
       <td><strong>Processor</strong></td>
@@ -450,8 +450,8 @@ border-collapse: separate;
       <td>8 GB RAM</td>
     </tr>
     <tr>
-      <td><strong>Graphics Card</strong></td>
-      <td>DirectX 11 or 12 compatible graphics card with the latest drivers</td>
+      <td class="td3"><strong>Graphics Card</strong></td>
+      <td class="td4">DirectX 11 or 12 compatible graphics card with the latest drivers</td>
     </tr>
   </tbody>
 </table>
@@ -459,13 +459,13 @@ border-collapse: separate;
 <div class="alert alert-doc-warn" role="alert">
     <div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: rgb(255, 193, 7); margin-top: 18px;" aria-hidden="true"></i>
-          <p style="margin-top: 15px; margin-left: 10px; text-align: left;">Although some features have a minimum requirement of DirectX 11, we recommend DirectX 12 for most games.</p>
+          <p style="margin-top: 15px; margin-left: 10px; text-align: left;">Although some features have a minimum requirement of DirectX 11, we recommend DirectX 12 for most games.<br>DirectX11 is better for older PCs, especially laptops with integrated graphics. However, DirectX12 provides a higher frame rate, multi-core processing support, and parallel and asynchronous computing.</p>
     </div></div>
   <table>
   <tbody>
     <tr>
-      <td><strong>Recommended Operating System</strong></td>
-      <td>Latest MacOS 13 Ventura</td>
+      <td class="td2"><strong>Recommended Operating System</strong></td>
+      <td class="td1">Latest MacOS 13 Ventura</td>
     </tr>
     <tr>
       <td><strong>Minimum Operating System</strong></td>
@@ -480,16 +480,16 @@ border-collapse: separate;
       <td>8 GB RAM</td>
     </tr>
     <tr>
-      <td><strong>Video Card</strong></td>
-      <td>Metal 1.2 Compatible Graphics Card</td>
+      <td class="td3"><strong>Video Card</strong></td>
+      <td class="td4">Metal 1.2 Compatible Graphics Card</td>
     </tr>
   </tbody>
-</table>
+</table><br>
   <table>
   <tbody>
     <tr>
-      <td><strong>Operating System</strong></td>
-      <td>Ubuntu 22.04</td>
+      <td class="td2"><strong>Operating System</strong></td>
+      <td class="td1">Ubuntu 22.04</td>
     </tr>
     <tr>
       <td><strong>Processor</strong></td>
@@ -508,15 +508,15 @@ border-collapse: separate;
       <td>8 GB or more</td>
     </tr>
     <tr>
-      <td><strong>RHI Version</strong></td>
-      <td><strong>Vulkan:</strong> AMD (21.11.3+) and NVIDIA (515.48+)</td>
+      <td class="td3"><strong>RHI Version</strong></td>
+      <td class="td4"><strong>Vulkan:</strong> AMD (21.11.3+) and NVIDIA (515.48+)</td>
     </tr>
   </tbody>
 </table><br>
   <div class="alert alert-doc" role="alert">
     <div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: #aaaaae; margin-top: 18px;" aria-hidden="true"></i>
-        <p style="margin-top: 15px; margin-left: 10px; text-align: left;">Want to learn more about a specific term, or don’t understand what something means? Go to the UEDN Glossary or review definitions and code examples in Dextro/C++ Glossary for more information.</p>
+        <p style="margin-top: 15px; margin-left: 10px; text-align: left;">To get the most out of rendering features of Unreal Engine 5, such Nanite and Lumen, see the Requirements for UE5 Rendering Features section of this page.</p>
     </div></div>
   <section id="minimum-software-requirements" class="h2" style="text-align: left;">Minimum Software Requirements</section>
   <p style="text-align: left;">Minimum requirements for running the engine or editor are listed below.</p>
