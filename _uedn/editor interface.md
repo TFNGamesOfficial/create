@@ -321,6 +321,7 @@ td {
   background-color: #202024;
   padding-left: 10px;
   padding: 20px 0px;
+  padding-left:20px;
 }
 
   .td3 {
