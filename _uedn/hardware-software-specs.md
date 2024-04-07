@@ -153,20 +153,13 @@ external_url: https://tfngamesofficial.github.io/devcreate/docs/unreal-editor/ge
 .document-header .content-nav .list {
     min-width: 16.25rem
 }
-
-
-
-
   
   body {
     background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
     background-repeat: no-repeat;
     background-color: #101014;
 }
-    h1 {
-      font-size: 2.5rem;
-    }
-  
+
     h2 {
       font-family: Inter;
       font-weight: 900;
@@ -228,10 +221,6 @@ font-display : swap;
         font-family: Inter;
         font-weight: 900;
       }
-        body {
-            margin: 0;
-            padding: 0;
-        }
       .profile {
             background-color: translate;
             width: 56rem;
@@ -329,23 +318,75 @@ font-display : swap;
             border: .125rem solid #bc3;
             border-radius: 8px;
         }
+td {
+  background-color: #202024;
+  padding-left: 10px;
+  padding: 20px 0px;
+  padding-left:20px;
+}
+  .imgmenu {
+    max-width: 887px;
+    max-height: 78px;
+  }
 
-  .alert-doc-warn {
-            background-color: transparent;
-            border: .125rem solid #bc3;
-            border-radius: 8px;
-        }
-
-.default {
-  width: 56rem;
-            height: auto;
-  display: flex;
+  .td3 {
+  background-color: #202024;
+    border-top-left-radius: 8px;
+}
+  .td4 {
+  background-color: #202024;
+    border-top-right-radius: 8px;
+}
+  .td1 {
+  background-color: #202024;
+    border-bottom-right-radius: 8px;
+}
+  .td2 {
+  background-color: #202024;
+    border-bottom-left-radius: 8px;
+}
+  th {
+  background-color: transparent;
+    padding-left: 10px;
 }
 
-  .default:hover {
-    text-decoration: none;
-  }
+code {
+    border-radius: .5rem;
+    border: .0625rem solid #262B3D;
+    background: #0c0d16;
+  color: white;
+    padding: .125rem .4375rem;
+}
   
+  .markdown-body table:not(.highlight) th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 500;
+    text-align: left;
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: white;
+}
+
+  .markdown-body table:not(.highlight) td, .markdown-body table:not(.highlight) th {
+    border: 0px solid transparent;
+padding: 18px 16px;
+}
+th, td {
+  padding-left: 20px;
+}
+
+  table {
+border-collapse: separate;
+    border-spacing: 0 .125rem;
+    line-height: 1.4;
+    font-size: .875rem;
+    margin-bottom: 0;
+  }
+  .table>:not(caption)>*>* {
+    padding: 1.125rem 1rem;
+    border-bottom-width: .125rem;
+}
 </style>
 <div class="content-nav-container">
 <content-nav class="content-nav">
@@ -476,8 +517,7 @@ font-display : swap;
   <section id="minimum-software-requirements" class="h2" style="text-align: left;">Minimum Software Requirements</section>
   <p style="text-align: left;">Minimum requirements for running the engine or editor are listed below.</p>
 </div>
-        </div>
-    </div></center>
+</center>
 <script>
 // Code für das Scroll-Verhalten
 window.addEventListener('scroll', function() {
