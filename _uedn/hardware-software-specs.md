@@ -386,10 +386,17 @@ border-collapse: separate;
     line-height: 1.4;
     font-size: .875rem;
     margin-bottom: 0;
+    width: 56rem;
   }
   .table>:not(caption)>*>* {
     padding: 1.125rem 1rem;
     border-bottom-width: .125rem;
+}
+.table tbody tr:first-child td:first-child {
+    border-top-left-radius: 8px;
+}
+  .table tbody tr:first-child td:last-child {
+    border-top-right-radius: 8px;
 }
 </style>
 <div class="content-nav-container">
