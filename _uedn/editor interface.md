@@ -1,4 +1,5 @@
 ---
+layout: uedn
 name: Editor Interface
 tools: [Interface, Basics]
 description: Learn how to use the editor layout.
@@ -409,7 +410,7 @@ border-collapse: separate;
       <a class="list-link" href="#platformsmenu">5. Platforms Menu</a>
     </li>
     <li class="list-item is-level-2">
-      <a class="list-link" href="#platformsmenu">6. Settings</a>
+      <a class="list-link" href="#settings">6. Settings</a>
     </li>
     <li class="list-item is-level-1">
       <a class="list-link" href="#levelviewport">Level Viewport</a>
