@@ -367,7 +367,11 @@ code {
     border: 0px solid transparent;
     color: white;
 }
-
+.alert-doc {
+            background-color: transparent;
+            border: .125rem solid #484E63;
+            border-radius: 8px;
+        }
   .markdown-body table:not(.highlight) td, .markdown-body table:not(.highlight) th {
     border: 0px solid transparent;
 padding: 18px 16px;
@@ -444,14 +448,8 @@ border-collapse: separate;
     </tr>
   </tbody>
 </table>
-  <div class="alert alert-doc" role="alert">
-    <div style="display: flex;">
-        <i class="fa-solid fa-circle-info" style="color: #aaaaae; margin-top: 18px;" aria-hidden="true"></i>
-          <p style="margin-top: 15px; margin-left: 10px; text-align: left;">New to <strong>DevNite Creative</strong>? Check out the DevNite Creative Documentation site for the basics on building an island!</p>
-    </div></div>
-  <section id="learn-programming-dextro" class="h2" style="text-align: left;">Learn Programming with Dextro</section>
-  <p style="text-align: left;">New to programming? Our Dextro guides are here to walk you through programming basics while learning Dextro by combining hands-on tutorials and relevant explanations. Get started with the classic <a class="doc-links" href="#"> "Hello World!" programming example</a> and use the language quick reference as a handy tool for your basic language needs. Or, access the full Dextro Language Reference and the Dextro API Reference for all your Dextro language needs.</p>
-<div class="alert alert-doc" role="alert">
+<br>
+<div class="alert alert-doc-warn" role="alert">
     <div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: rgb(255, 193, 7); margin-top: 18px;" aria-hidden="true"></i>
           <p style="margin-top: 15px; margin-left: 10px; text-align: left;">Although some features have a minimum requirement of DirectX 11, we recommend DirectX 12 for most games.</p>
@@ -507,7 +505,7 @@ border-collapse: separate;
       <td><strong>Vulkan:</strong> AMD (21.11.3+) and NVIDIA (515.48+)</td>
     </tr>
   </tbody>
-</table>
+</table><br>
   <div class="alert alert-doc" role="alert">
     <div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: #aaaaae; margin-top: 18px;" aria-hidden="true"></i>
