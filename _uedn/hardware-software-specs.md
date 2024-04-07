@@ -439,7 +439,7 @@ border-collapse: separate;
   <tbody>
     <tr>
       <td class="td3"><strong>Operating System</strong></td>
-      <td class="td4">Windows 10 64-bit version 1909 revision .1350 or higher, or versions 2004 and 20H2 revision .789 or higher</td>
+      <td class="td4">Windows 10 64-bit version 1909 revision .1350 or higher, or versions 2004 and 20H2 revision<br>.789 or higher</td>
     </tr>
     <tr>
       <td><strong>Processor</strong></td>
