@@ -455,7 +455,6 @@ border-collapse: separate;
     <div style="display: flex;">
         <i class="fa-solid fa-circle-info" style="color: rgb(255, 193, 7); margin-top: 18px;" aria-hidden="true"></i>
           <p style="margin-top: 15px; margin-left: 10px; text-align: left;">Although some features have a minimum requirement of DirectX 11, we recommend DirectX 12 for most games.</p>
-          <p style="margin-top: 15px; margin-left: 10px; text-align: left;">DirectX11 is better for older PCs, especially laptops with integrated graphics. However, DirectX12 provides a higher frame rate, multi-core processing support, and parallel and asynchronous computing.</p>
     </div></div>
   <table>
   <tbody>
