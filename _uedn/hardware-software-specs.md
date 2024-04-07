@@ -419,7 +419,7 @@ border-collapse: separate;
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/devcreate/">Developer</a></li>
     <li class="breadcrumb-item"><a href="/devcreate/docs/">Documentation</a></li>
-    <li class="breadcrumb-item"><a href="/devcreate/docs/unreal-editor/">Unreal Editor for DevNite Documentation</a></li>
+    <li class="breadcrumb-item"><a href="/devcreate/docs/unreal-editor/">Unreal Editor f...</a></li>
     <li class="breadcrumb-item"><a href="/devcreate/docs/unreal-editor/get-started">Get Started</a></li>
     <li class="breadcrumb-item active" aria-current="page">Hardware and Software Specifications</li>
   </ol>
@@ -438,8 +438,8 @@ border-collapse: separate;
   </thead>
   <tbody>
     <tr>
-      <td class="td4"><strong>Operating System</strong></td>
-      <td class="td3">Windows 10 64-bit version 1909 revision .1350 or higher, or versions 2004 and 20H2 revision .789 or higher</td>
+      <td class="td3"><strong>Operating System</strong></td>
+      <td class="td4">Windows 10 64-bit version 1909 revision .1350 or higher, or versions 2004 and 20H2 revision .789 or higher</td>
     </tr>
     <tr>
       <td><strong>Processor</strong></td>
