@@ -22,6 +22,10 @@ nav_exclude:                                            # The following paths ar
   - pages/documentationtags.html
   - pages/getting-started.html
   - pages/installing-uedn.html
+  - pages/dnc.html
+  - pages/update-log.html
+  - pages/update-log/v1-20.html
+  - pages/update-log/v1.10.html
 
 
 ### Author Info ###
