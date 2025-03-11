@@ -1,5 +1,5 @@
 ---
-name: What's new?
+name: What's new? (Legacy)
 tools: [Unreal Editor, Updates]
 description: Updates for the newest engine version.
 ---
