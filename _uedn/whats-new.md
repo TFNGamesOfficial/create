@@ -31,7 +31,7 @@ description: Updates for the newest engine version.
     <label for="engineversion">Choose Engine Version:</label>
     <select id="engineversion" name="engineversion" onchange="updateText()">
       <option value="select">Choose Engine Version</option>
-        <option value="419">Unreal Editor 4.19 Documentation</option>
+        <option value="419">Unreal Editor 4.19+ Documentation</option>
         <option value="424">Unreal Editor 4.24 Documentation</option>
         <option value="500">Unreal Editor 5.0 Documentation</option>
     </select>
