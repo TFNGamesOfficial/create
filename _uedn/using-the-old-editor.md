@@ -1,5 +1,5 @@
 ---
-name: Using the 4.24 Editor
+name: Using the 4.24 Editor (Legacy)
 tools: [Unreal Editor, 4.24, Basics]
 description: Learn how to use the 4.24 Editor.
 ---
