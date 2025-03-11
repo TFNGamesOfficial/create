@@ -6,6 +6,10 @@ color: info
 description: Dextro is coming to DevUE to support you! Read more...
 ---
 
+<div class="alert alert-danger" role="alert">
+  Dextro is no longer available in UEDG (Unreal Editor for DevGames). <a href="https://tfngamesofficial.github.io/create/news/dextro-end" class="alert-link">Read more...</a> instead!
+</div>
+
 # Dextro is coming to DevUE
 by DevGames
 March 3, 2023
