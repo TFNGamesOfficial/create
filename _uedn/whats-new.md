@@ -26,7 +26,9 @@ description: Updates for the newest engine version.
 </head>
 
 <body>
-
+<div class="alert alert-danger" role="alert">
+  You are reading a legacy documentation! To read new documentation click <a href="https://tfngamesofficial.github.io/create/docs/unreal-editor/" class="alert-link">here</a>!
+</div>
   <form id="ticketForm">
     <label for="engineversion">Choose Engine Version:</label>
     <select id="engineversion" name="engineversion" onchange="updateText()">
