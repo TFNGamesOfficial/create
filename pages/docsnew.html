@@ -1,0 +1,404 @@
+---
+layout: default
+title: Docs
+permalink: /docs
+weight: 1
+remote_projects: 
+  - git-for-wizards
+  - arduino-visitor-counter
+---
+<script src="https://kit.fontawesome.com/36b257c118.js" crossorigin="anonymous"></script>
+<style>
+.content-nav-container {
+  position: sticky;
+  position:-webkit-sticky;
+  width:300px;
+  top: 0;
+  height:0px;
+  bottom:0;
+  right: 0;
+  margin-left: 90.5%;
+  padding-top:10px;
+}
+  
+.content-nav {
+  right: 50px;
+  top: 40%;
+}
+  
+.content-nav.is-collapsible {
+    position: relative
+}
+
+.content-nav.is-collapsible .list {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    background: #000;
+    padding: 1rem;
+    margin-top: .25rem;
+    width: 100%
+}
+
+.content-nav.is-scrollable {
+    min-height: calc(var(--site-y-visible-height) - 1rem);
+    display: flex;
+    flex-direction: column
+}
+
+.content-nav.is-scrollable .ng-scrollbar {
+    flex-grow: 1
+}
+
+.content-nav.is-scrollable .list {
+    padding-bottom: 0
+}
+
+.content-nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem
+}
+
+.content-nav-header .title {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase
+}
+
+.content-nav-header .sublink {
+    font-size: .875rem;
+    color: #26bbff;
+    text-decoration: none
+}
+
+.content-nav-header .sublink:hover {
+    text-decoration: underline
+}
+
+.content-nav .btn {
+    font-size: .875rem;
+    letter-spacing: normal;
+    border-width: .125rem;
+    margin-bottom: 1.5rem;
+    text-transform: initial;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.content-nav .btn .material-icons {
+    font-size: 1.25rem
+}
+
+.content-nav .list {
+    list-style: none;
+    padding: 0 0 3rem;
+    margin: 0;
+    font-size: .875rem;
+    border-radius: 4px
+}
+
+.content-nav .list-item+.list-item {
+    margin-top: .5rem
+}
+
+.content-nav .list-item.is-level-2 {
+    padding-left: .75rem
+}
+
+.content-nav .list-item.is-level-3 {
+    padding-left: 1.5rem
+}
+
+.content-nav .list-item.is-level-4 {
+    padding-left: 2.25rem
+}
+
+.content-nav .list-item.is-level-5 {
+    padding-left: 3rem
+}
+
+.content-nav .list-item.is-level-6 {
+    padding-left: 3.75rem
+}
+
+.content-nav .list-link {
+    display: flex;
+    text-decoration: none;
+    color: #aaaaae;
+    transition: color .1s linear,border-left-color .1s linear;
+    padding-left: .875rem;
+    border-left: .125rem solid transparent
+}
+
+.content-nav .list-link:hover,.content-nav .list-link.is-active {
+    color: #e6e6ea
+}
+
+.content-nav .list-link.is-active {
+    font-weight: 700;
+    border-left-color: #ff0000
+}
+
+.content-nav .sub-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 1.25rem
+}
+
+.content-nav .sub-list .list-link {
+    font-weight: 400
+}
+.document-header .content-nav .list {
+    min-width: 16.25rem
+}
+
+
+
+
+  
+  body {
+    background-image: url('https://edc-cdn.net/assets/images/bg-header-unreal-engine.png');
+    background-repeat: no-repeat;
+    background-color: #101014;
+}
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    h2 {
+      font-family: Inter;
+      font-weight: 900;
+    }
+  
+  @font-face {
+font-family : "Recursive Mono";
+src : url(https://edc-cdn.net/assets/fonts/recursive-mono-regular.woff2) format("woff2");
+font-weight : 400;
+font-style : normal;
+}
+@font-face {
+font-family : Inter;
+src : url(https://edc-cdn.net/assets/fonts/inter-light.woff2) format("woff2");
+font-weight : 300;
+font-style : normal;
+font-display : swap;
+}
+@font-face {
+font-family : Inter;
+src : url(https://edc-cdn.net/assets/fonts/inter-regular.woff2) format("woff2");
+font-weight : 400;
+font-style : normal;
+font-display : swap;
+}
+@font-face {
+font-family : Inter;
+src : url(https://edc-cdn.net/assets/fonts/inter-medium.woff2) format("woff2");
+font-weight : 500;
+font-style : normal;
+font-display : swap;
+}
+@font-face {
+font-family : Inter;
+src : url(https://edc-cdn.net/assets/fonts/inter-bold.woff2) format("woff2");
+font-weight : 700;
+font-style : normal;
+font-display : swap;
+}
+@font-face {
+font-family : "Inter Tight";
+src : url(https://edc-cdn.net/assets/fonts/inter-tight.woff2) format("woff2");
+font-weight : 900;
+font-style : normal;
+font-display : swap;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: 'Inter Tight', Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 900;
+    line-height: 1.25;
+}
+  
+      doc-h2 {
+        font-family: Inter;
+        font-weight: 900;
+      }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+      .profile {
+            background-color: translate;
+            width: 56rem;
+            box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+            margin-left: 0 auto;
+            margin-right: 0 auto;
+            margin-top: 15px;
+        }
+        .doc-article {
+            margin: 0 auto;
+        }
+        .doc-container {
+            width: 56rem;
+            height: auto;
+            align-items: stretch;
+            background-color: #202024;
+            overflow: hidden;
+            border-radius: 10px;
+            padding: 0px;
+            margin-top: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: row;
+        }
+        .doc-image {
+            width: 15%;
+            height: auto;
+            max-width: 15%;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            background-color: #222;
+            object-fit: cover;
+        }
+        .doc-details {
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 15px;
+            overflow-wrap: break-all;
+            padding-bottom: 15px;
+            margin-left: 20px; 
+            display: flex;
+            justify-content: center;
+        }
+        .doc-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #aaa;
+        }
+        .doc-desc {
+            font-size: 14px;
+            color: #aaa;
+            margin-bottom: 5px;
+        }
+
+
+  .doc-links {
+    color: #26bbff;
+    text-decoration: underline;
+  }
+
+  .doc-links:hover {
+    color: #26bbff;
+    text-decoration: none;
+  }
+      a {
+        color: #aaa;
+      }
+
+      a:hover {
+        color: #eee;
+      }
+      .doc-p {
+        color: #aaa;
+      }
+      .breadcrumb {
+        background-color: transparent;
+      }
+
+.breadcrumb-item {
+  color: #aaa;
+}
+  
+.breadcrumb-item.active {
+    color: #eee;
+}
+  .document-thumbnail {
+    width: 56rem;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+.alert-doc {
+            background-color: transparent;
+            border: .125rem solid #484E63;
+            border-radius: 8px;
+        }
+
+.default {
+  width: 56rem;
+            height: auto;
+  display: flex;
+}
+
+  .default:hover {
+    text-decoration: none;
+  }
+  
+</style>
+<center>
+<div class="profile">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/create/developer">Developer</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Documentation</li>
+  </ol>
+    <h1 style="text-align: left;" class="h2">DevNite Create Documentation</h1>
+    <p style="text-align: left;" class="doc-p">Everything you want to know about UEDN, Creative and more — in one place.</p><br>
+  <img width="1920" height="335" class="document-thumbnail" src="https://ue-cdn.artstation.com/imgproxy/4bdxJRZWM9eJWM5BY2NW7vke2kZjRc5fCgVhDNZqNwU/filename:uefn-home-hero.png/resizing_type:fill/width:1920/height:335/ext:jpg/aHR0cHM6Ly9kMWl2N2RiNDR5aGd4bi5jbG91ZGZyb250Lm5ldC9kb2N1bWVudGF0aW9uL2ltYWdlcy80MWNiYzg3My03MGRjLTQ2MjMtYTI4Mi0zYjM0MTc1NjU5NzMvdWVmbi1ob21lLWhlcm8ucG5n" alt="Unreal Engine 5.0 Documentation">
+  <br>
+</div>
+  <div class="doc-article">
+    <a class="default" href="/create/docs/unreal-editor">
+          <div class="doc-container">
+                <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/a77aee21-48af-459f-b07d-d79fc536b508/topic-image.png" alt="" class="doc-image">
+                <div class="doc-details">
+                    <div style="text-align: left;" class="doc-title">Unreal Editor for DevNite</div>
+                </div>
+        </div></a>
+
+            <a class="default" href="/create/docs/creative">
+              <div class="doc-container">
+                <img src="https://d1iv7db44yhgxn.cloudfront.net/documentation/images/4763fffb-945f-49b6-96ee-1f29bd2f6cf9/starting-out-in-unreal-editor-for-fortnite-topic-image.png" alt="" class="doc-image">
+                <div class="doc-details">
+                    <div style="text-align: left;" class="doc-title">DevNite Creative</div>
+                </div>
+            </div></a>
+        </div>
+    </div></center>
+<script>
+// Code für das Scroll-Verhalten
+window.addEventListener('scroll', function() {
+  let navLinks = document.querySelectorAll('content-nav a');
+  let sections = document.querySelectorAll('section');
+
+  sections.forEach((section, index) => {
+    let rect = section.getBoundingClientRect();
+    if (rect.top <= 0 && rect.bottom >= 0) {
+      navLinks.forEach(link => link.classList.remove('is-active'));
+      navLinks[index].classList.add('is-active');
+    }
+  });
+});
+
+// Code für das Klick-Verhalten
+// JavaScript Code
+document.querySelectorAll('.list-link').forEach(item => {
+  item.addEventListener('click', event => {
+    // Entfernen Sie die is-active Klasse von allen Elementen
+    document.querySelectorAll('.list-link').forEach(link => {
+      link.classList.remove('is-active');
+    });
+    // Fügen Sie die is-active Klasse zum geklickten Element hinzu
+    event.target.classList.add('is-active');
+  })
+});
+</script>
+
