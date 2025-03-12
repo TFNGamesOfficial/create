@@ -13,7 +13,7 @@ description: Learn how to use the editor layout.
   height:0px;
   bottom:0;
   right: 0;
-  margin-left: auto;
+  margin-left: 90.5%;
   padding-top:10px;
 }
   
